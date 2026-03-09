@@ -5,15 +5,17 @@ import App from './App';
 import './index.css';
 
 function showError(msg: string): void {
-  const el = document.getElementById('root')!;
-  el.innerHTML =
-    '<div style="padding:2rem;font-family:system-ui;max-width:560px;">' +
-    '<h2 style="color:#c94b62;">App failed to start</h2>' +
-    '<pre style="background:#f1f5f9;padding:1rem;overflow:auto;font-size:0.875rem;white-space:pre-wrap;">' +
-    String(msg).replace(/</g, '&lt;') +
-    '</pre>' +
-    '<p><a href="http://localhost:3000" style="color:#E85D75;">Reload</a> · Press F12 → Console for details.</p>' +
-    '</div>';
+  const el = document.getElementById('root');
+  if (el) {
+    el.innerHTML =
+      '<div style="padding:2rem;font-family:system-ui;max-width:560px;">' +
+      '<h2 style="color:#c94b62;">App failed to start</h2>' +
+      '<pre style="background:#f1f5f9;padding:1rem;overflow:auto;font-size:0.875rem;white-space:pre-wrap;">' +
+      String(msg).replace(/</g, '&lt;') +
+      '</pre>' +
+      '<p><a href="http://localhost:3000" style="color:#E85D75;">Reload</a></p>' +
+      '</div>';
+  }
 }
 
 try {
