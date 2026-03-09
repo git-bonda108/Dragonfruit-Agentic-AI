@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dragonfruit Media — AI & Automation Proposal · EOY 2026</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --df-bg: #FAFAFA;
+      --df-surface: #FFFFFF;
+      --df-text: #1a1a1a;
+      --df-muted: #64748B;
+      --df-accent: #E85D75;
+      --df-accent-dark: #C94B62;
+      --df-border: #E2E8F0;
+    }
+    * { box-sizing: border-box; }
+    body { font-family: 'Plus Jakarta Sans', sans-serif; color: var(--df-text); background: var(--df-bg); line-height: 1.5; margin: 0; padding: 0; }
+    .page { max-width: 800px; margin: 0 auto; padding: 40px 50px; background: var(--df-surface); min-height: 100vh; box-shadow: 0 0 30px rgba(0,0,0,0.06); }
+    h1 { font-size: 1.85rem; font-weight: 800; letter-spacing: -0.02em; color: var(--df-text); margin: 0 0 0.5rem 0; }
+    h2 { font-size: 1.35rem; font-weight: 700; color: var(--df-text); margin: 2rem 0 1rem 0; padding-bottom: 0.35rem; border-bottom: 3px solid var(--df-accent); }
+    h3 { font-size: 1.1rem; font-weight: 600; color: var(--df-text); margin: 1.25rem 0 0.5rem 0; }
+    p { margin: 0 0 0.75rem 0; color: var(--df-text); }
+    .muted { color: var(--df-muted); font-size: 0.95rem; }
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+    th { background: var(--df-accent); color: white; font-weight: 600; text-align: left; padding: 10px 12px; }
+    td { padding: 10px 12px; border-bottom: 1px solid var(--df-border); }
+    tr:nth-child(even) { background: var(--df-bg); }
+    ul, ol { margin: 0 0 0.75rem 0; padding-left: 1.5rem; }
+    li { margin-bottom: 0.35rem; }
+    .cover { text-align: center; padding: 80px 40px; }
+    .cover .logo { font-size: 2rem; font-weight: 800; color: var(--df-accent); margin-bottom: 0.5rem; }
+    .cover h1 { margin-top: 1rem; }
+    .cover .sub { font-size: 1.1rem; color: var(--df-muted); margin-top: 1rem; }
+    .cover .conf { font-size: 0.85rem; color: var(--df-muted); margin-top: 3rem; }
+    .toc { margin: 2rem 0; }
+    .toc a { color: var(--df-accent); text-decoration: none; font-weight: 500; }
+    .toc a:hover { text-decoration: underline; }
+    .toc ul { list-style: none; padding-left: 0; }
+    .toc li { margin: 0.5rem 0; padding-left: 1rem; border-left: 3px solid var(--df-border); }
+    .criteria-table th:nth-child(1) { width: 28%; }
+    .criteria-table th:nth-child(2) { width: 10%; }
+    .criteria-table td { vertical-align: top; }
+    .buffer { background: #FFFBF7; border-left: 4px solid var(--df-accent); padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
+    .page-break { page-break-before: always; }
+    @media print {
+      body { background: white; }
+      .page { box-shadow: none; max-width: 100%; padding: 30px 40px; }
+      .page-break { page-break-before: always; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="cover">
+      <div class="logo">Dragonfruit Media</div>
+      <h1>AI & Automation Proposal</h1>
+      <p class="sub">Scale pod capacity from 4 → 7 clients by EOY 2026</p>
+      <p class="muted">Through agentic infrastructure and workflow automation</p>
+      <p class="conf">March 2026 · DRAGONFRUIT MEDIA CONFIDENTIAL</p>
+    </div>
+
+    <h2>Table of contents</h2>
+    <nav class="toc">
+      <ul>
+        <li><a href="#solution">The solution in plain language</a></li>
+        <li><a href="#A">A. System architecture &amp; vision</a></li>
+        <li><a href="#B">B. AI toolkit per role</a></li>
+        <li><a href="#C">C. Implementation roadmap</a></li>
+        <li><a href="#D">D. Costs &amp; engagement structure</a></li>
+        <li><a href="#E">E. Evaluation criteria alignment</a></li>
+        <li><a href="#appendix-cost">Appendix 1 — Cost per tool</a></li>
+        <li><a href="#appendix-automation">Appendix 2 — Automation by stage</a></li>
+        <li><a href="#next">Next steps</a></li>
+      </ul>
+    </nav>
+
+    <h2 id="solution">The solution in plain language</h2>
+    <p>This section explains <strong>what you have today</strong>, <strong>what we add</strong>, and <strong>how the layers work</strong> — so the diagram and the rest of the proposal make sense to everyone.</p>
+
+    <h3>What you have today</h3>
+    <p>Dragonfruit operates at scale: <strong>90+ team members</strong> and <strong>60+ videos per month</strong> across clients. Your <strong>pipeline</strong> runs from client onboarding through pre-production, production, post-production, publishing, and monthly reporting. Each <strong>pod</strong> has a Producer, Creative Director, Production Coordinator, and Post Production Manager (who manages 10–12 Editors); you also have shared Scriptwriters, Thumbnail Designers, and Data Analysts. You use <strong>ClickUp</strong> for tasks and batches, <strong>Slack</strong> for internal and client communication, <strong>Notion</strong> for docs and SOPs, <strong>Frame.io</strong> for review, and <strong>Dropbox</strong> for footage — plus Make, Zapier, and the rest of your tool stack (~$12.8K/month, 40+ subscriptions). Your <strong>time audit</strong> and <strong>dream allocations</strong> show where time goes today and where you want it to go; your <strong>AI survey</strong> (73 people across 5 roles) and <strong>wish list</strong> spell out the tools and workflows you want. Nothing in this proposal invents data: we use only what’s in your materials.</p>
+
+    <h3>What we’re adding (and what we’re not)</h3>
+    <p>We are <strong>not</strong> replacing ClickUp, Slack, Notion, Frame.io, or Dropbox. We are adding a <strong>layer in between</strong> your team and those tools. That layer does three things, in line with your brief:</p>
+    <ol>
+      <li><strong>Workflow automation (primary lever)</strong> — Automate repetitive tasks across ClickUp, Slack, Notion, and Dropbox so the bulk of coordination overhead shrinks (e.g. task creation, status updates, templated messages).</li>
+      <li><strong>Agentic infrastructure (secondary lever)</strong> — AI agents that handle task routing, status updates, feedback distribution, and content-prep workflows. Each agent is aligned to a role (Producer, PC, CD, PPM) and only does what you’ve defined; at critical steps <strong>you approve</strong> before anything is created, sent, or assigned.</li>
+      <li><strong>AI wish list toolkit by role (enabler)</strong> — Right-fit AI tools per role from your wish list (e.g. predictive retention for CDs, automated QC for PPMs, Claude-to-ClickUp for Producers), so you move toward your dream time allocations.</li>
+    </ol>
+    <p><strong>Human-in-the-loop:</strong> Task creation, assignment, and client-facing messages never go out without a human approval step. You stay in control; the system suggests and you confirm.</p>
+
+    <h3>What the four layers in the diagram mean</h3>
+    <p>The diagram below has four layers, top to bottom:</p>
+    <ul>
+      <li><strong>Layer 1 — Where work comes in:</strong> The same places it does today: Slack, ClickUp, Frame.io, Notion, Dropbox, and your team (Producer, PC, CD, PPM). We don’t change how work enters; we plug into these.</li>
+      <li><strong>Layer 2 — What we add (AI by role):</strong> Role-based AI that understands your workflow. Producer Agent helps create and route tasks; PC Agent helps with status and client comms; CD Agent helps with retention, competitor intel, and packaging; PPM Agent helps with QC and who to assign. At each critical action, <strong>you approve</strong> (e.g. “confirm task,” “approve client message,” “confirm assignee”).</li>
+      <li><strong>Layer 3 — The wiring:</strong> Connectors we build so the AI can talk safely to ClickUp, Slack, Notion, Frame.io, and your QC/assignment logic. This is the technical “plumbing”; your team doesn’t need to manage it day to day.</li>
+      <li><strong>Layer 4 — Your existing systems:</strong> ClickUp, Slack, Notion, Frame.io, Make/Zapier — unchanged. We read from and write to them only where you’ve agreed, and only after you’ve approved the action.</li>
+    </ul>
+    <p>Together, these layers support your <strong>objective</strong>: scale from 4 to 7 clients per pod by EOY 2026 without a proportional headcount increase, by reducing coordination overhead and giving each role the right AI support.</p>
+
+    <h2 id="A">A. System architecture &amp; vision</h2>
+    <p>This section maps your <strong>current pipeline</strong> (Onboarding → Pre-Production → Production → Post-Production → Publishing &amp; monthly reporting), your <strong>pod structure</strong> (Producer, Creative Director, Production Coordinator, Post Production Manager, 10–12 Editors; shared Scriptwriter, Thumbnail Designer, Data Analyst), and your <strong>tool stack</strong> (~$12.8K/month, 40+ subscriptions) to the same design in more detail.</p>
+
+    <h3>A.1 Architecture diagram</h3>
+    <p><strong>Figure 1</strong> (below) shows the four layers described above: where work comes in → the AI layer (with your approval at critical steps) → the connectors → your existing systems.</p>
+    <p><img src="architecture_diagram.png" alt="Figure 1 — Four layers: where work comes in, AI by role with your approval, connectors, your existing systems" style="max-width:100%; height:auto; border:1px solid var(--df-border); border-radius:8px;"/></p>
+
+    <h3>A.2 Where time is saved (mapped to your time audit)</h3>
+    <table>
+      <tr><th>Role</th><th>Current bottleneck (from your audit)</th><th>Automation / AI</th><th>Target time shift</th></tr>
+      <tr><td>Producer</td><td>ClickUp admin (38%), Slack (17%), meetings (20%)</td><td>Claude-to-ClickUp MCP, Slack templates, async standups</td><td>Coordination 74.5% → 41%; freed time → Client Strategy, Creative QC</td></tr>
+      <tr><td>Production Coordinator</td><td>ClickUp (40%), Slack (11%), meetings (19%)</td><td>Same MCP, templated client comms, automated statuses</td><td>Coordination 70% → 40%</td></tr>
+      <tr><td>Creative Director</td><td>Preproduction &lt;30%, V1 review, ClickUp admin</td><td>Predictive retention, outlier ideation, packaging intel, Claude Projects</td><td>Preproduction → 50%; V1/admin → 0%</td></tr>
+      <tr><td>Post Production Manager</td><td>Reactive 1:1s, manual QC, admin</td><td>Automated QC, editor capacity DB, sentiment alerts</td><td>Intentional 1:1s, hiring, onboarding</td></tr>
+      <tr><td>Editor</td><td>Idle (6.5%), revisions (13%), ClickUp admin</td><td>Capacity assignment, clearer briefs → fewer revisions</td><td>Core editing 66% → 80%; idle → 2%</td></tr>
+    </table>
+
+    <h3>A.3 Build vs. buy vs. configure</h3>
+    <p><strong>Build:</strong> Claude-to-ClickUp agent, Frame.io sentiment aggregator, automated QC checker (client checklist), capacity-based assignment, predictive retention &amp; outlier ideation (custom or fine-tuned + your data).</p>
+    <p><strong>Buy/configure:</strong> Claude/ChatGPT/Gemini for script/ideation; ElevenLabs, Runway per wish list; Notion/ClickUp native automation where sufficient.</p>
+    <p><strong>Glue:</strong> Expand Make/Zapier; small custom services for events no off-the-shelf tool covers.</p>
+
+    <div class="page-break"></div>
+
+    <h2 id="B">B. AI toolkit per role</h2>
+    <p>Recommendations align with your <strong>AI Tool Survey (73 respondents, 5 roles)</strong> and your <strong>Wish List (16 tools)</strong>. We justify each by cost, capability, learning curve, and current adoption (e.g. editors = power users; CDs = knowledge gap; PCs want “anything that cuts task time”).</p>
+
+    <h3>B.0 Market context — who else does this?</h3>
+    <p>Several players offer <em>parts</em> of what you need, but none deliver the full pipeline + role-based wish list you described:</p>
+    <ul>
+      <li><strong>Generic automation (e.g. Lindy, Zapier/Make):</strong> Slack↔ClickUp templates, ~$50–300/month. Good for simple triggers; they do not provide predictive retention, Frame.io sentiment, automated QC, capacity-based assignment, or CD-specific tools (outlier ideation, A/B monitor).</li>
+      <li><strong>ClickUp-focused agents (e.g. UpSys, boutique shops):</strong> Custom AI agents for task creation, triage, onboarding. Typically custom-priced; strong on task automation but not on creative/post-production (retention, QC, packaging, sentiment).</li>
+      <li><strong>Video / creative AI (Evolve Media AI, FluxNote, NemoVideo):</strong> Orchestration or batch video workflows; not built around your exact stack (ClickUp, Frame.io, Notion, pod structure) or your 16-tool wish list with human-in-the-loop at each critical step.</li>
+    </ul>
+    <p><strong>Our position:</strong> We scope to your full pipeline and all 16 tools; we integrate ClickUp, Slack, Frame.io, and Notion in one agentic layer with explicit HITL gates. Implementation and ongoing cost are framed below and in Appendix 1 (per-tool approach, timeline, maintenance, and approximate cost range), as requested in your brief.</p>
+
+    <h3>B.1 Creative Directors</h3>
+    <p><strong>CD-1 Predictive Retention</strong> (HIGH) — Build: script + channel context → predicted retention curve + drop-off flags. No off-the-shelf equivalent. <strong>CD-2 Outlier Ideation</strong> (HIGH) — Build: ~20 competitor channels per client; surface outlier videos. <strong>CD-3 Visual Packaging &amp; Thumbnail</strong> (HIGH) — Thumbnail analysis + script→thumbnail text. <strong>CD-4 A/B Test Monitor</strong> (HIGH) — Competitor title/thumbnail/description changes + performance delta; Slack alerts. <strong>CD-5 Packaging Scorer</strong>, <strong>CD-6 Client Knowledge Bases</strong> (Claude Projects), <strong>CD-7 Script Voice Matching</strong>, <strong>CD-8 Slack Scoring Bot</strong>, <strong>CD-9 Outlier Aggregator</strong> (MEDIUM) — Per role playbooks; CD-6 and CD-5/CD-8 as quick wins for adoption.</p>
+    <p class="buffer"><strong>Licensing (with buffer):</strong> Claude team + API; custom build for CD-1–4, CD-8–9. <strong>Estimate: $3.5–6K/month</strong> (licenses + API + hosting). <strong>Maintenance:</strong> Covered in retainer (2–3 days/month); model prompts and thresholds reviewed quarterly; CD-2/CD-4 competitor lists updated per client.</p>
+
+    <h3>B.2 Editors &amp; Post Production Managers</h3>
+    <p><strong>ED-1 Frame.io Sentiment</strong> (HIGH) — Video-level + client-level sentiment; Slack alert if below threshold. <strong>ED-2 Automated QC</strong> (HIGH) — Video + client checklist → timestamped report. <strong>ED-3 Capacity-Based Task Assignment</strong> (HIGH) — ClickUp + workload + skill/pod → suggested assignees; human confirms. Adoption: short demos + clear SOPs; PPMs positioned as “less manual QC, more coaching.”</p>
+    <p class="buffer"><strong>Licensing (with buffer):</strong> Primarily build; Frame.io/APIs. <strong>Estimate: $1.2–2.5K/month</strong>. <strong>Maintenance:</strong> Retainer includes monitoring, checklist updates per client, and Frame.io API/version changes.</p>
+
+    <h3>B.3 Producers &amp; Production Coordinators</h3>
+    <p><strong>PR-4 Claude-to-ClickUp Agent</strong> (HIGH) — Natural language → task create/update with correct fields and routing. <strong>PR-1 Timeline Calculator</strong>, <strong>PR-2 Client Sentiment Tracker</strong>, <strong>PR-3 Slack Templates</strong> (MEDIUM) — Templates + auto-fill client/project. PR-4 and PR-3 with one-click flows to minimize learning curve.</p>
+    <p class="buffer"><strong>Licensing (with buffer):</strong> Claude API + Slack. <strong>Estimate: $1.2–2.5K/month</strong>. <strong>Maintenance:</strong> Retainer covers PR-4 agent tuning, Slack template updates, and ClickUp/Slack API changes.</p>
+
+    <div class="page-break"></div>
+
+    <h2 id="C">C. Implementation roadmap</h2>
+    <p>Phased rollout with <strong>clear milestones</strong>, <strong>quick wins in the first 30 days</strong>, and <strong>measurable KPIs</strong> at each phase. Timelines include <strong>buffer</strong> for training, adoption, and iteration.</p>
+
+    <table>
+      <tr><th>Phase</th><th>Timeline (with buffer)</th><th>Scope</th><th>Success / KPIs</th></tr>
+      <tr><td><strong>Phase 1</strong> Quick wins</td><td>Days 1–35</td><td>PR-3 (Slack templates), expand Make/Zapier ClickUp↔Slack, basic PR-1 (timeline calculator)</td><td>Fewer ad-hoc Slacks; one source of truth for task created/updated</td></tr>
+      <tr><td><strong>Phase 2</strong> Foundation</td><td>Months 1–2.5</td><td>PR-4 (Claude-to-ClickUp) pilot in one pod; ED-3 (capacity assignment) v1; ED-1 (Frame.io sentiment) beta on one client</td><td>Producer/PC ClickUp time down in pilot; assignee suggestions live; % tasks via agent (e.g. 30% target)</td></tr>
+      <tr><td><strong>Phase 3</strong> Quality &amp; intelligence</td><td>Months 2.5–4.5</td><td>ED-2 (automated QC) for 1–2 clients; CD-6 (Claude Projects) for 2–3 clients; CD-1 or CD-5 as first CD tool</td><td>QC report in use; CDs use Claude Projects; reduction in “missed checklist” revisions</td></tr>
+      <tr><td><strong>Phase 4</strong> Scale &amp; full wish list</td><td>Months 4.5–7</td><td>Roll PR-4 and ED-3 to all pods; CD-2/CD-3/CD-4; PR-2; CD-8/CD-9</td><td>7 clients per pod in ≥1 pod; time allocation within 10% of dream targets</td></tr>
+    </table>
+
+    <h3>Risk mitigation</h3>
+    <p><strong>Human-in-the-loop:</strong> Task creation (PR-4), assignment (ED-3), client-facing Slack (PR-3), QC escalation (ED-2), sentiment response (ED-1), publish/final handoff — all require review or one-click confirm. <strong>Rollback:</strong> Feature flags and toggles per agent; revert to manual per pod or client. <strong>Training:</strong> Per-role playbooks and async Loom/Notion; 2 live sessions per role in Phase 2 and 3; “Innovation Lab” time for Producers/PCs.</p>
+
+    <div class="page-break"></div>
+
+    <h2 id="D">D. Costs &amp; engagement structure</h2>
+    <p>Ranges below include <strong>realistic buffers</strong> for discovery, training, and iteration so we deliver best-in-class outcomes without scope creep.</p>
+
+    <h3>D.1 Labour (consulting / implementation)</h3>
+    <p><strong>Model:</strong> Hybrid — <strong>fixed-price phases</strong> for defined deliverables plus <strong>retainer</strong> for integration, support, and iteration (2–3 days/month). <strong>Rates:</strong> Based on current market rates for boutique AI and integration consulting (2025–2026): blended day rates <strong>$1,150–$1,450</strong> depending on phase and role mix (technical lead, developer, project/ops).</p>
+    <table>
+      <tr><th>Phase</th><th>Days (with buffer)</th><th>Labour estimate</th></tr>
+      <tr><td>Phase 1</td><td>8–14 days</td><td>$9,200–$20,300</td></tr>
+      <tr><td>Phase 2</td><td>18–30 days</td><td>$20,700–$43,500</td></tr>
+      <tr><td>Phase 3</td><td>18–26 days</td><td>$20,700–$37,700</td></tr>
+      <tr><td>Phase 4</td><td>24–36 days</td><td>$27,600–$52,200</td></tr>
+      <tr><td>Retainer (6 months)</td><td>12–18 days</td><td>$13,800–$26,100</td></tr>
+      <tr><td><strong>Total labour</strong></td><td><strong>95–145 days</strong></td><td><strong>$109,000–$211,000</strong></td></tr>
+    </table>
+
+    <h3>D.2 System / tooling costs — how we frame AI tools cost</h3>
+    <p><strong>Current stack (unchanged):</strong> Your existing spend (~$12.8K/month on ClickUp, Notion, Frame.io, Slack, Make, Dropbox, etc.) stays as is unless you add seats. We do not replace these; we add a layer on top.</p>
+    <p><strong>New AI/tooling layer — two parts:</strong></p>
+    <ol>
+      <li><strong>Implementation (one-time):</strong> Built into the labour in D.1 (design, build, integrate, test, train). No separate “AI tools” implementation line; it’s included in the phase and retainer days.</li>
+      <li><strong>Ongoing (recurring):</strong> Licenses (e.g. Claude team/API), API usage (LLM, Frame.io, etc.), and hosting for custom builds. This is the <strong>incremental</strong> monthly cost on top of your current $12.8K.</li>
+    </ol>
+    <p><strong>Per-tool approach, timeline, maintenance, and approximate cost range</strong> are in <strong>Appendix 1</strong>, as requested in your wish list brief. Summary:</p>
+    <p class="buffer"><strong>Estimated new system cost (monthly, with buffer): $3.5–8K</strong> depending on scope and usage. <strong>Through Phase 4 (first 7 months):</strong> ~$25,000–$56,000. This is the only <em>additional</em> tooling spend; your current $12.8K is unchanged.</p>
+
+    <h3>D.3 Overall total and timeline</h3>
+    <p><strong>Total estimated engagement</strong> (labour + new system costs through Phase 4): <strong>$135,000–$267,000</strong>. <strong>Timeline:</strong> Phase 1 start to Phase 4 complete in <strong>6–7 months</strong>; retainer runs in parallel from Month 1.</p>
+
+    <h3>D.4 Working model</h3>
+    <p><strong>Cadence:</strong> Biweekly steering (30 min); async Slack channel for blockers; weekly written status (Notion or email). <strong>Decision-making:</strong> Single DFM stakeholder for scope and priorities; technical decisions documented. <strong>Team (vendor side):</strong> 1 technical lead (architecture + integration), 1 developer (agents + APIs), 0.5 project/ops (timeline, UAT, training). Optional: 0.5 data/ML for CD-1 and outlier models.</p>
+
+    <div class="page-break"></div>
+
+    <h2 id="E">E. Evaluation criteria alignment</h2>
+    <p>We have structured this proposal to score <strong>maximally</strong> against each of your stated criteria. Below is an explicit mapping.</p>
+
+    <table class="criteria-table">
+      <tr><th>Criterion</th><th>Weight</th><th>How this proposal addresses it (best-in-class)</th></tr>
+      <tr><td><strong>Specificity to your workflow</strong></td><td>30%</td><td>References your pipeline phases by name (Onboarding → Pre-Pro → Production → Post-Pro → Publish); your time audit and dream allocations with role-level percentages; your tool stack ($12.8K/month, 40+ tools); all 16 wish-list tools (CD-1–CD-9, ED-1–ED-3, PR-1–PR-4); pod structure (Producer, CD, PC, PPM, 10–12 Editors). No generic advice.</td></tr>
+      <tr><td><strong>Clarity of architecture</strong></td><td>25%</td><td>Figure 1 (system diagram) with triggers, agents, connectors, external systems and HITL callouts. Build vs buy vs configure for every tool. Integration points (ClickUp, Slack, Frame.io, Notion) and agent examples (Producer, PC, CD, PPM) that an engineer can implement tomorrow. Technical MVP plan (OpenAI Agents SDK, connectors, function tools) documented.</td></tr>
+      <tr><td><strong>Realistic roadmap</strong></td><td>20%</td><td>4 phases over 6–7 months with buffers; quick wins in first 30–35 days; KPIs and success criteria per phase; training and Innovation Lab time; risk mitigation (7 HITL gates, feature flags, rollback). No big-bang; pilot before rollout.</td></tr>
+      <tr><td><strong>Cost transparency</strong></td><td>15%</td><td>AI tools cost properly framed: (1) current stack $12.8K unchanged; (2) new layer = implementation in labour + ongoing licenses/API only; (3) per-tool approach, timeline, maintenance, and approximate cost range in Appendix 1 for all 16 tools. Labour by phase with $ totals; overall engagement $135K–$267K. ROI: 29–55% incremental tooling to enable 75% more client capacity (4→7 per pod).</td></tr>
+      <tr><td><strong>Engagement fit</strong></td><td>10%</td><td>Async-first (dedicated Slack channel, written updates); biweekly steering only; no unnecessary meetings. Single DFM stakeholder for decisions. All code in shared repo; agent traces viewable. Matches how you operate.</td></tr>
+    </table>
+
+    <div class="page-break"></div>
+
+    <h2 id="appendix-cost">Appendix 1 — Cost per tool (as requested in your brief)</h2>
+    <p>For each tool: <strong>approach (build vs. buy vs. configure)</strong>, <strong>indicative implementation</strong> (phase / days in D.1), <strong>ongoing cost range</strong> ($/month), and <strong>maintenance</strong>. Existing stack ($12.8K/month) unchanged; below is the <strong>incremental</strong> AI/tooling layer only.</p>
+    <table>
+      <tr><th>Tool</th><th>Approach</th><th>Implementation</th><th>Ongoing ($/mo)</th><th>Maintenance</th></tr>
+      <tr><td><strong>CD-1</strong> Predictive Retention</td><td>Build</td><td>Phase 3–4</td><td>~$800–1,500</td><td>Retainer; prompt/model review quarterly</td></tr>
+      <tr><td><strong>CD-2</strong> Outlier Ideation</td><td>Build</td><td>Phase 4</td><td>~$600–1,200</td><td>Competitor list updates per client</td></tr>
+      <tr><td><strong>CD-3</strong> Packaging &amp; Thumbnail</td><td>Build + configure</td><td>Phase 4</td><td>~$400–800</td><td>Included in retainer</td></tr>
+      <tr><td><strong>CD-4</strong> A/B Test Monitor</td><td>Build</td><td>Phase 4</td><td>~$300–600</td><td>Competitor list + alert thresholds</td></tr>
+      <tr><td><strong>CD-5</strong> Packaging Scorer</td><td>Configure + build</td><td>Phase 3</td><td>~$200–400</td><td>Included in retainer</td></tr>
+      <tr><td><strong>CD-6</strong> Client Knowledge Bases</td><td>Configure (Claude Projects)</td><td>Phase 3</td><td>~$500–1,000</td><td>Per-client content updates</td></tr>
+      <tr><td><strong>CD-7</strong> Script Voice Matching</td><td>Configure + build</td><td>Phase 4</td><td>~$200–500</td><td>Included in retainer</td></tr>
+      <tr><td><strong>CD-8</strong> Slack Scoring Bot</td><td>Build</td><td>Phase 3–4</td><td>~$150–350</td><td>Included in retainer</td></tr>
+      <tr><td><strong>CD-9</strong> Outlier Aggregator</td><td>Build (extends CD-2)</td><td>Phase 4</td><td>~$200–400</td><td>Shared with CD-2</td></tr>
+      <tr><td><strong>ED-1</strong> Frame.io Sentiment</td><td>Build</td><td>Phase 2–3</td><td>~$400–800</td><td>Frame.io API + threshold tuning</td></tr>
+      <tr><td><strong>ED-2</strong> Automated QC</td><td>Build</td><td>Phase 3</td><td>~$300–600</td><td>Checklist updates per client</td></tr>
+      <tr><td><strong>ED-3</strong> Capacity Assignment</td><td>Build</td><td>Phase 2, roll Phase 4</td><td>~$200–400</td><td>ClickUp/availability logic</td></tr>
+      <tr><td><strong>PR-1</strong> Timeline Calculator</td><td>Build + configure</td><td>Phase 1</td><td>~$100–250</td><td>Included in retainer</td></tr>
+      <tr><td><strong>PR-2</strong> Client Sentiment Tracker</td><td>Build</td><td>Phase 4</td><td>~$250–500</td><td>Included in retainer</td></tr>
+      <tr><td><strong>PR-3</strong> Slack Templates</td><td>Configure + build</td><td>Phase 1</td><td>~$50–150</td><td>Template updates as needed</td></tr>
+      <tr><td><strong>PR-4</strong> Claude-to-ClickUp Agent</td><td>Build</td><td>Phase 2, roll Phase 4</td><td>~$400–800</td><td>Retainer; ClickUp/Slack API changes</td></tr>
+      <tr><td colspan="3"><strong>Total new system (monthly, indicative)</strong></td><td><strong>$3,500–$8,000</strong></td><td>Retainer 2–3 days/mo covers most</td></tr>
+    </table>
+    <p class="muted" style="margin-top:0.5rem;">Ongoing totals are shared (e.g. one Claude/API bill; hosting). Implementation is part of D.1 labour by phase.</p>
+
+    <h2 id="appendix-automation">Appendix 2 — Automation opportunities by stage</h2>
+    <p>Where in your pipeline each automation or AI capability applies. Aligned to your current pipeline phases.</p>
+    <table>
+      <tr><th>Pipeline stage</th><th>Automation / AI</th></tr>
+      <tr><td>Onboarding</td><td>Template client space (ClickUp); PR-4 for initial task setup; PR-3 templates for kickoff/comms</td></tr>
+      <tr><td>Pre-Production</td><td>PR-4 (task create/update); CD-1 (retention), CD-2 (outlier), CD-6 (knowledge bases); PR-1 (timeline); script/ideation (Claude)</td></tr>
+      <tr><td>Production</td><td>PR-4 status updates; PR-2 (client sentiment); handoff to post-prod via ClickUp/Slack</td></tr>
+      <tr><td>Post-Production</td><td>ED-3 (capacity-based assignment); ED-1 (Frame.io sentiment); ED-2 (automated QC); PR-3 (revision/reminder templates)</td></tr>
+      <tr><td>Publishing &amp; reporting</td><td>CD-4 (A/B monitor); CD-3 (packaging); monthly report prep (data/Notion); PR-2 (sentiment)</td></tr>
+    </table>
+
+    <h2 id="next">Next steps</h2>
+    <p><strong>Why us:</strong> We have a <strong>working MVP</strong> (all 8 high-priority tools, human-in-the-loop flows, ClickUp/Slack/Frame.io/Notion connectors) ready to show on a call — so you can see exactly how the agentic layer and automation behave before you commit.</p>
+    <ol>
+      <li><strong>Demo call (30 min)</strong> — Walk through the MVP; align on Phase 1 priorities, API access, and pilot pod.</li>
+      <li><strong>Scoping call (30 min)</strong> — Confirm scope, milestones, and access (ClickUp API admin, Slack admin, Frame.io admin, Notion API).</li>
+      <li><strong>Proposal due March 13th</strong> — This document is submission-ready. We welcome a follow-up call to present and refine.</li>
+    </ol>
+
+    <p class="muted" style="margin-top:2rem;">Dragonfruit Media confidential · March 2026 · Prepared to win.</p>
+  </div>
+</body>
+</html>

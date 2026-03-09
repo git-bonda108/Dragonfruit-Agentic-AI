@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multi-Agent Handoffs — Producer as Orchestrator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root { --df-accent: #E85D75; --df-muted: #64748B; --df-border: #E2E8F0; --df-text: #1a1a1a; }
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 20px; font-family: 'Plus Jakarta Sans', sans-serif; background: linear-gradient(165deg, #FFF9F6 0%, #FAFAFA 100%); color: var(--df-text); min-height: 100vh; display: flex; flex-direction: column; align-items: center; }
+    h1 { font-size: 1.15rem; font-weight: 800; margin: 0 0 4px 0; }
+    .subtitle { font-size: 0.8rem; color: var(--df-muted); margin-bottom: 12px; }
+    .diagram-wrap { background: #fff; border-radius: 16px; box-shadow: 0 8px 32px rgba(0,0,0,0.08); padding: 20px; max-width: 920px; }
+    .diagram-wrap svg { display: block; width: 100%; height: auto; }
+    .moving-dash { stroke-dasharray: 10 8; animation: dash 1.2s linear infinite; }
+    @keyframes dash { to { stroke-dashoffset: -36; } }
+    .flow-dot { fill: var(--df-accent); filter: drop-shadow(0 0 4px rgba(232,93,117,0.8)); }
+    .caption { font-size: 0.7rem; color: var(--df-muted); margin-top: 12px; }
+  </style>
+</head>
+<body>
+  <h1>Multi-Agent Pattern — Producer (1) as Orchestrator</h1>
+  <p class="subtitle">OpenAI Agents SDK: Handoffs = delegation; Agent 1 delegates to 2, 3, 4; HITL at critical steps</p>
+
+  <div class="diagram-wrap">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 380" width="860" height="380">
+      <defs>
+        <marker id="m2" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#E85D75"/></marker>
+      </defs>
+      <rect width="860" height="380" fill="#FAFAFA"/>
+
+      <!-- Query -->
+      <rect x="20" y="25" width="160" height="48" rx="8" fill="#FFFBF7" stroke="#E85D75" stroke-width="2"/>
+      <text x="100" y="48" text-anchor="middle" font="600 11px 'Plus Jakarta Sans'" fill="#1a1a1a">Query</text>
+      <text x="100" y="63" text-anchor="middle" font="500 9px 'Plus Jakarta Sans'" fill="#64748B">e.g. "Script review + assign"</text>
+
+      <!-- Arrow: Query to Agent 1 -->
+      <path d="M 180 49 L 250 49" stroke="#E85D75" stroke-width="2" fill="none" marker-end="url(#m2)" class="moving-dash"/>
+      <circle r="5" class="flow-dot"><animateMotion dur="1.2s" repeatCount="indefinite" path="M 180 49 L 250 49"/></circle>
+      <circle r="5" class="flow-dot"><animateMotion dur="1.2s" repeatCount="indefinite" begin="0.4s" path="M 180 49 L 250 49"/></circle>
+
+      <!-- Agent 1 Orchestrator -->
+      <rect x="250" y="15" width="360" height="68" rx="8" fill="#E85D75" stroke="#C94B62" stroke-width="1.5"/>
+      <text x="430" y="42" text-anchor="middle" font="700 14px 'Plus Jakarta Sans'" fill="#fff">1 Producer (PM / Orchestrator)</text>
+      <text x="430" y="60" text-anchor="middle" font="500 10px 'Plus Jakarta Sans'" fill="rgba(255,255,255,0.95)">Receives query → delegates via handoff (agent as tool) to 2, 3, 4</text>
+
+      <!-- Arrow down: 1 to 2 -->
+      <path d="M 350 83 L 350 114 L 170 114 L 170 145" stroke="#E85D75" stroke-width="2" fill="none" marker-end="url(#m2)" class="moving-dash"/>
+      <circle r="5" class="flow-dot"><animateMotion dur="1.4s" repeatCount="indefinite" path="M 350 83 L 350 114 L 170 114 L 170 145"/></circle>
+      <!-- Arrow down: 1 to 3 -->
+      <path d="M 430 83 L 430 145" stroke="#E85D75" stroke-width="2" fill="none" marker-end="url(#m2)" class="moving-dash"/>
+      <circle r="5" class="flow-dot"><animateMotion dur="1.4s" repeatCount="indefinite" begin="0.2s" path="M 430 83 L 430 145"/></circle>
+      <circle r="5" class="flow-dot"><animateMotion dur="1.4s" repeatCount="indefinite" begin="0.6s" path="M 430 83 L 430 145"/></circle>
+      <!-- Arrow down: 1 to 4 -->
+      <path d="M 510 83 L 510 114 L 690 114 L 690 145" stroke="#E85D75" stroke-width="2" fill="none" marker-end="url(#m2)" class="moving-dash"/>
+      <circle r="5" class="flow-dot"><animateMotion dur="1.4s" repeatCount="indefinite" begin="0.5s" path="M 510 83 L 510 114 L 690 114 L 690 145"/></circle>
+
+      <text x="260" y="118" text-anchor="middle" font="500 9px 'Plus Jakarta Sans'" fill="#64748B">handoff</text>
+      <text x="430" y="118" text-anchor="middle" font="500 9px 'Plus Jakarta Sans'" fill="#64748B">handoff</text>
+      <text x="600" y="118" text-anchor="middle" font="500 9px 'Plus Jakarta Sans'" fill="#64748B">handoff</text>
+
+      <!-- Agent 2 -->
+      <rect x="80" y="145" width="180" height="62" rx="8" fill="#FFFBF7" stroke="#E85D75" stroke-width="2"/>
+      <text x="170" y="168" text-anchor="middle" font="700 12px 'Plus Jakarta Sans'" fill="#1a1a1a">2 PC Agent</text>
+      <text x="170" y="185" text-anchor="middle" font="500 9px 'Plus Jakarta Sans'" fill="#64748B">Status, client message</text>
+
+      <!-- Agent 3 -->
+      <rect x="340" y="145" width="180" height="62" rx="8" fill="#FFFBF7" stroke="#E85D75" stroke-width="2"/>
+      <text x="430" y="168" text-anchor="middle" font="700 12px 'Plus Jakarta Sans'" fill="#1a1a1a">3 CD Agent</text>
+      <text x="430" y="185" text-anchor="middle" font="500 9px 'Plus Jakarta Sans'" fill="#64748B">Retention, outlier, A/B</text>
+
+      <!-- Agent 4 -->
+      <rect x="600" y="145" width="180" height="62" rx="8" fill="#FFFBF7" stroke="#E85D75" stroke-width="2"/>
+      <text x="690" y="168" text-anchor="middle" font="700 12px 'Plus Jakarta Sans'" fill="#1a1a1a">4 PPM Agent</text>
+      <text x="690" y="185" text-anchor="middle" font="500 9px 'Plus Jakarta Sans'" fill="#64748B">Assignee, QC, sentiment</text>
+
+      <!-- Arrows: result back to 1 (to center 430, 83) -->
+      <path d="M 170 207 L 170 250 L 430 250 L 430 88" stroke="#E85D75" stroke-width="1.5" fill="none" class="moving-dash"/>
+      <circle r="4" class="flow-dot"><animateMotion dur="2.2s" repeatCount="indefinite" path="M 170 207 L 170 250 L 430 250 L 430 88"/></circle>
+      <path d="M 430 207 L 430 250 L 430 88" stroke="#E85D75" stroke-width="1.5" fill="none" class="moving-dash"/>
+      <circle r="4" class="flow-dot"><animateMotion dur="2s" repeatCount="indefinite" begin="0.4s" path="M 430 207 L 430 250 L 430 88"/></circle>
+      <path d="M 690 207 L 690 250 L 430 250 L 430 88" stroke="#E85D75" stroke-width="1.5" fill="none" class="moving-dash"/>
+      <circle r="4" class="flow-dot"><animateMotion dur="2.2s" repeatCount="indefinite" begin="0.6s" path="M 690 207 L 690 250 L 430 250 L 430 88"/></circle>
+
+      <text x="170" y="230" text-anchor="middle" font="500 8px 'Plus Jakarta Sans'" fill="#64748B">result</text>
+      <text x="430" y="230" text-anchor="middle" font="500 8px 'Plus Jakarta Sans'" fill="#64748B">result</text>
+      <text x="690" y="230" text-anchor="middle" font="500 8px 'Plus Jakarta Sans'" fill="#64748B">result</text>
+
+      <!-- HITL -->
+      <rect x="250" y="258" width="390" height="48" rx="8" fill="#FEE2E2" stroke="#C94B62" stroke-width="2"/>
+      <text x="445" y="278" text-anchor="middle" font="700 11px 'Plus Jakarta Sans'" fill="#C94B62">HITL: confirm task · approve client message · confirm assignee · QC escalate</text>
+      <text x="445" y="294" text-anchor="middle" font="500 9px 'Plus Jakarta Sans'" fill="#64748B">1 synthesizes → human approves → response</text>
+
+      <!-- Arrow: HITL to Response -->
+      <path d="M 445 306 L 445 338" stroke="#E85D75" stroke-width="2" fill="none" marker-end="url(#m2)" class="moving-dash"/>
+      <circle r="5" class="flow-dot"><animateMotion dur="1s" repeatCount="indefinite" path="M 445 306 L 445 338"/></circle>
+
+      <text x="445" y="358" text-anchor="middle" font="600 11px 'Plus Jakarta Sans'" fill="#1a1a1a">Response</text>
+    </svg>
+  </div>
+  <p class="caption">Batch 1 · Moving dashed arrows + dots. Record as GIF.</p>
+</body>
+</html>

@@ -1,0 +1,170 @@
+{
+  "_meta": {
+    "source": "clickup_mcp",
+    "tool": "get_workspace",
+    "mode": "mock",
+    "description": "DFM ClickUp workspace structure \u2014 Business Plus Plan, 104 members"
+  },
+  "workspace": {
+    "id": "9012345678",
+    "name": "Dragonfruit Media",
+    "plan": "business_plus",
+    "members_count": 104,
+    "color": "#FF6B35"
+  },
+  "spaces": [
+    {
+      "id": "sp_901001",
+      "name": "\ud83e\udd6d Mango Pod",
+      "statuses": [
+        "Open",
+        "In Progress",
+        "Review",
+        "Approved",
+        "Published"
+      ],
+      "members": [
+        {
+          "id": "u_101",
+          "username": "garrett.p",
+          "email": "garrett@dragonfruitmedia.co",
+          "role": "Producer"
+        },
+        {
+          "id": "u_201",
+          "username": "hannah.cd",
+          "email": "hannah@dragonfruitmedia.co",
+          "role": "Creative Director"
+        },
+        {
+          "id": "u_301",
+          "username": "mahmoud.ppm",
+          "email": "mahmoud@dragonfruitmedia.co",
+          "role": "Post-Production Manager"
+        },
+        {
+          "id": "u_401",
+          "username": "felipe.pc",
+          "email": "felipe@dragonfruitmedia.co",
+          "role": "Production Coordinator"
+        },
+        {
+          "id": "u_501",
+          "username": "editor.a",
+          "email": "ops.a@dragonfruitmedia.co",
+          "role": "Editor"
+        },
+        {
+          "id": "u_502",
+          "username": "editor.b",
+          "email": "ops.b@dragonfruitmedia.co",
+          "role": "Editor"
+        }
+      ],
+      "lists": [
+        {
+          "id": "li_100101",
+          "name": "Batch 14 \u2014 Longform",
+          "task_count": 8
+        },
+        {
+          "id": "li_100102",
+          "name": "Batch 14 \u2014 Shortform",
+          "task_count": 12
+        },
+        {
+          "id": "li_100103",
+          "name": "Batch 13 \u2014 Longform (Complete)",
+          "task_count": 8
+        }
+      ]
+    },
+    {
+      "id": "sp_901002",
+      "name": "\ud83c\udf4b Lemon Pod",
+      "statuses": [
+        "Open",
+        "In Progress",
+        "Review",
+        "Approved",
+        "Published"
+      ],
+      "members": [
+        {
+          "id": "u_102",
+          "username": "mariana.p",
+          "email": "mariana@dragonfruitmedia.co",
+          "role": "Producer"
+        },
+        {
+          "id": "u_202",
+          "username": "matias.cd",
+          "email": "matiasrijo@dragonfruitmedia.co",
+          "role": "Creative Director"
+        },
+        {
+          "id": "u_302",
+          "username": "martina.ppm",
+          "email": "martina@dragonfruitmedia.co",
+          "role": "Post-Production Manager"
+        },
+        {
+          "id": "u_402",
+          "username": "ishna.pc",
+          "email": "ishna@dragonfruitmedia.co",
+          "role": "Production Coordinator"
+        },
+        {
+          "id": "u_503",
+          "username": "editor.c",
+          "email": "ops.d@dragonfruitmedia.co",
+          "role": "Editor"
+        },
+        {
+          "id": "u_504",
+          "username": "editor.d",
+          "email": "ops.e@dragonfruitmedia.co",
+          "role": "Editor"
+        }
+      ],
+      "lists": [
+        {
+          "id": "li_100201",
+          "name": "Batch 11 \u2014 Longform",
+          "task_count": 6
+        },
+        {
+          "id": "li_100202",
+          "name": "Batch 11 \u2014 Shortform",
+          "task_count": 10
+        }
+      ]
+    }
+  ],
+  "leadership": [
+    {
+      "id": "u_001",
+      "username": "brendan",
+      "email": "brendan@dragonfruitmedia.co",
+      "role": "CEO"
+    },
+    {
+      "id": "u_002",
+      "username": "yazan",
+      "email": "yazan@dragonfruitmedia.co",
+      "role": "Leadership"
+    },
+    {
+      "id": "u_003",
+      "username": "emily",
+      "email": "emily@dragonfruitmedia.co",
+      "role": "Leadership"
+    },
+    {
+      "id": "u_004",
+      "username": "adrian",
+      "email": "adrian@dragonfruitmedia.co",
+      "role": "ECD"
+    }
+  ]
+}

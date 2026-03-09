@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Typography: Headings = Space Grotesk, Body = Inter | Scale: H1 40px, H2 28px, H3 22px, Body 16px, Small 14px, Labels 13px, line-height 1.6 */
+body {
+  margin: 0;
+  font-family: var(--df-font);
+  font-size: var(--df-body);
+  background: var(--df-bg);
+  color: var(--df-text);
+  line-height: var(--df-line-height);
+  -webkit-font-smoothing: antialiased;
+  text-transform: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--df-font-heading);
+  text-transform: none;
+  line-height: var(--df-line-height);
+}
+
+h1 { font-size: var(--df-h1); }
+h2 { font-size: var(--df-h2); }
+h3 { font-size: var(--df-h3); }
+h4 { font-size: var(--df-body); }
+h5, h6 { font-size: var(--df-small); }
+
+/* Force normal case for all content — no caps */
+body,
+#root,
+#root * {
+  text-transform: none;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  color: var(--df-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--df-accent-hover);
+  text-decoration: underline;
+}
+
+button:focus-visible,
+a:focus-visible,
+[tabindex="0"]:focus-visible {
+  outline: var(--df-focus-ring);
+  outline-offset: 2px;
+}

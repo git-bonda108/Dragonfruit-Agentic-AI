@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" width="900" height="620">
+  <defs>
+    <style>
+      .title { font: 700 14px 'Plus Jakarta Sans', sans-serif; fill: #1a1a1a; }
+      .subtitle { font: 500 11px 'Plus Jakarta Sans', sans-serif; fill: #64748B; }
+      .box { fill: #FFFFFF; stroke: #E2E8F0; stroke-width: 1.5; }
+      .box-accent { fill: #E85D75; }
+      .box-accent .title, .box-accent .subtitle { fill: #FFFFFF; }
+      .box-agent { fill: #FFFBF7; stroke: #E85D75; stroke-width: 2; }
+      .connector { stroke: #64748B; stroke-width: 1.5; fill: none; }
+      .arrow { stroke: #E85D75; stroke-width: 2; fill: none; marker-end: url(#arrow); }
+      .hitl { font: 600 9px 'Plus Jakarta Sans', sans-serif; fill: #C94B62; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#E85D75"/>
+    </marker>
+  </defs>
+  <!-- Background -->
+  <rect width="900" height="620" fill="#FAFAFA"/>
+  <!-- Title -->
+  <text x="450" y="32" text-anchor="middle" class="title" font-size="18">Dragonfruit Media  AI-Enabled Pipeline Architecture</text>
+  <text x="450" y="50" text-anchor="middle" class="subtitle">Scale 4 � 7 clients per pod � Agentic infrastructure + workflow automation</text>
+
+  <!-- LAYER 1: Triggers / Entry points -->
+  <rect x="20" y="70" width="860" height="72" rx="8" class="box"/>
+  <text x="450" y="92" text-anchor="middle" class="subtitle">TRIGGERS & ENTRY POINTS</text>
+  <rect x="40" y="100" width="120" height="32" rx="6" class="box-agent"/>
+  <text x="100" y="118" text-anchor="middle" class="title" font-size="11">Slack</text>
+  <text x="100" y="128" text-anchor="middle" class="subtitle" font-size="9">Commands / messages</text>
+  <rect x="180" y="100" width="120" height="32" rx="6" class="box-agent"/>
+  <text x="240" y="118" text-anchor="middle" class="title" font-size="11">Dashboard</text>
+  <text x="240" y="128" text-anchor="middle" class="subtitle" font-size="9">Streamlit / natural language</text>
+  <rect x="320" y="100" width="120" height="32" rx="6" class="box-agent"/>
+  <text x="380" y="118" text-anchor="middle" class="title" font-size="11">ClickUp</text>
+  <text x="380" y="128" text-anchor="middle" class="subtitle" font-size="9">Status / task events</text>
+  <rect x="460" y="100" width="120" height="32" rx="6" class="box-agent"/>
+  <text x="520" y="118" text-anchor="middle" class="title" font-size="11">Frame.io</text>
+  <text x="520" y="128" text-anchor="middle" class="subtitle" font-size="9">Comments / review</text>
+  <rect x="600" y="100" width="120" height="32" rx="6" class="box-agent"/>
+  <text x="660" y="118" text-anchor="middle" class="title" font-size="11">Notion</text>
+  <text x="660" y="128" text-anchor="middle" class="subtitle" font-size="9">Docs / SOPs</text>
+  <rect x="740" y="100" width="120" height="32" rx="6" class="box-agent"/>
+  <text x="800" y="118" text-anchor="middle" class="title" font-size="11">Dropbox</text>
+  <text x="800" y="128" text-anchor="middle" class="subtitle" font-size="9">New footage / ingest</text>
+
+  <!-- Arrows down to Agents -->
+  <line x1="100" y1="142" x2="150" y2="175" class="arrow"/>
+  <line x1="240" y1="142" x2="300" y2="175" class="arrow"/>
+  <line x1="380" y1="142" x2="450" y2="175" class="arrow"/>
+  <line x1="520" y1="142" x2="600" y2="175" class="arrow"/>
+  <line x1="660" y1="142" x2="750" y2="175" class="arrow"/>
+
+  <!-- LAYER 2: Agents (realistic roles) -->
+  <rect x="20" y="155" width="860" height="115" rx="8" class="box"/>
+  <text x="450" y="177" text-anchor="middle" class="subtitle">AGENTIC LAYER  Role-based AI agents (OpenAI Agents SDK)</text>
+  <rect x="40" y="188" width="195" height="72" rx="8" class="box-agent"/>
+  <text x="137" y="210" text-anchor="middle" class="title" font-size="12">Producer Agent</text>
+  <text x="137" y="225" text-anchor="middle" class="subtitle" font-size="10">Task creation, routing, timeline; Claude-to-ClickUp</text>
+  <text x="137" y="240" text-anchor="middle" class="hitl">HITL: confirm task before create</text>
+  <rect x="255" y="188" width="195" height="72" rx="8" class="box-agent"/>
+  <text x="352" y="210" text-anchor="middle" class="title" font-size="12">PC Agent</text>
+  <text x="352" y="225" text-anchor="middle" class="subtitle" font-size="10">Status updates, client comms, Slack templates</text>
+  <text x="352" y="240" text-anchor="middle" class="hitl">HITL: approve client messages</text>
+  <rect x="470" y="188" width="195" height="72" rx="8" class="box-agent"/>
+  <text x="567" y="210" text-anchor="middle" class="title" font-size="12">CD Agent</text>
+  <text x="567" y="225" text-anchor="middle" class="subtitle" font-size="10">Retention, outlier ideation, packaging, A/B alerts</text>
+  <text x="567" y="240" text-anchor="middle" class="hitl">HITL: competitor alert � CD action</text>
+  <rect x="685" y="188" width="195" height="72" rx="8" class="box-agent"/>
+  <text x="782" y="210" text-anchor="middle" class="title" font-size="12">PPM Agent</text>
+  <text x="782" y="225" text-anchor="middle" class="subtitle" font-size="10">QC reports, sentiment, capacity assignment</text>
+  <text x="782" y="240" text-anchor="middle" class="hitl">HITL: assignees, QC escalation</text>
+
+  <!-- Arrows down to Connectors -->
+  <line x1="137" y1="270" x2="200" y2="305" class="arrow"/>
+  <line x1="352" y1="270" x2="350" y2="305" class="arrow"/>
+  <line x1="567" y1="270" x2="500" y2="305" class="arrow"/>
+  <line x1="782" y1="270" x2="700" y2="305" class="arrow"/>
+
+  <!-- LAYER 3: Connectors / Function tools -->
+  <rect x="20" y="285" width="860" height="88" rx="8" class="box"/>
+  <text x="450" y="307" text-anchor="middle" class="subtitle">CONNECTORS (function tools + MCP)</text>
+  <rect x="60" y="318" width="140" height="48" rx="6" class="box"/>
+  <text x="130" y="338" text-anchor="middle" class="title" font-size="10">ClickUp</text>
+  <text x="130" y="352" text-anchor="middle" class="subtitle" font-size="9">list, create_task, update_status</text>
+  <rect x="220" y="318" width="140" height="48" rx="6" class="box"/>
+  <text x="290" y="338" text-anchor="middle" class="title" font-size="10">Slack</text>
+  <text x="290" y="352" text-anchor="middle" class="subtitle" font-size="9">send_message, list_channels</text>
+  <rect x="380" y="318" width="140" height="48" rx="6" class="box"/>
+  <text x="450" y="338" text-anchor="middle" class="title" font-size="10">Notion</text>
+  <text x="450" y="352" text-anchor="middle" class="subtitle" font-size="9">get_page, create_page</text>
+  <rect x="540" y="318" width="140" height="48" rx="6" class="box"/>
+  <text x="610" y="338" text-anchor="middle" class="title" font-size="10">Frame.io</text>
+  <text x="610" y="352" text-anchor="middle" class="subtitle" font-size="9">get_comments, sentiment</text>
+  <rect x="700" y="318" width="140" height="48" rx="6" class="box"/>
+  <text x="770" y="338" text-anchor="middle" class="title" font-size="10">QC / Assignment</text>
+  <text x="770" y="352" text-anchor="middle" class="subtitle" font-size="9">checklist_run, suggest_assignees</text>
+
+  <!-- Arrows down to External -->
+  <line x1="130" y1="366" x2="150" y2="400" class="arrow"/>
+  <line x1="290" y1="366" x2="280" y2="400" class="arrow"/>
+  <line x1="450" y1="366" x2="450" y2="400" class="arrow"/>
+  <line x1="610" y1="366" x2="620" y2="400" class="arrow"/>
+  <line x1="770" y1="366" x2="750" y2="400" class="arrow"/>
+
+  <!-- LAYER 4: External systems -->
+  <rect x="20" y="390" width="860" height="100" rx="8" class="box"/>
+  <text x="450" y="412" text-anchor="middle" class="subtitle">EXTERNAL SYSTEMS (your existing stack)</text>
+  <rect x="40" y="425" width="150" height="52" rx="6" class="box-accent"/>
+  <text x="115" y="448" text-anchor="middle" class="title" font-size="11">ClickUp</text>
+  <text x="115" y="462" text-anchor="middle" class="subtitle" font-size="9">Tasks, spaces, custom fields</text>
+  <rect x="210" y="425" width="150" height="52" rx="6" class="box-accent"/>
+  <text x="285" y="448" text-anchor="middle" class="title" font-size="11">Slack</text>
+  <text x="285" y="462" text-anchor="middle" class="subtitle" font-size="9">Channels, DMs, workflows</text>
+  <rect x="380" y="425" width="150" height="52" rx="6" class="box-accent"/>
+  <text x="455" y="448" text-anchor="middle" class="title" font-size="11">Notion</text>
+  <text x="455" y="462" text-anchor="middle" class="subtitle" font-size="9">Docs, SOPs, knowledge</text>
+  <rect x="550" y="425" width="150" height="52" rx="6" class="box-accent"/>
+  <text x="625" y="448" text-anchor="middle" class="title" font-size="11">Frame.io</text>
+  <text x="625" y="462" text-anchor="middle" class="subtitle" font-size="9">Review, comments, assets</text>
+  <rect x="720" y="425" width="140" height="52" rx="6" class="box-accent"/>
+  <text x="790" y="448" text-anchor="middle" class="title" font-size="11">Make / Zapier</text>
+  <text x="790" y="462" text-anchor="middle" class="subtitle" font-size="9">Existing automations</text>
+
+  <!-- Footer / Legend -->
+  <rect x="20" y="505" width="860" height="105" rx="8" fill="#FFFBF7" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="40" y="528" class="title" font-size="11">Figure 1  System architecture</text>
+  <text x="40" y="548" class="subtitle" font-size="10">HITL = Human-in-the-loop (approval gates at task create, assignment, client messages, QC escalation, sentiment response).</text>
+  <text x="40" y="565" class="subtitle" font-size="10">Agents use connectors to read/write your existing tools; no rip-and-replace. Pilot in one pod, then roll out.</text>
+  <text x="40" y="582" class="subtitle" font-size="9">Dragonfruit Media confidential � March 2026</text>
+</svg>

@@ -1,0 +1,26 @@
+/* Dragonfruit — Color palette + typography */
+:root {
+  --df-bg: #000000;
+  --df-surface: #FFFFFF;
+  --df-panel: #F2F2F2;
+  --df-accent: #FF3B2E;
+  --df-accent-hover: #E53935;
+  --df-text: #8A8A8A;
+  --df-label: #333333;
+  --df-border: #333333;
+  --df-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --df-shadow-card: 0 4px 14px rgba(0, 0, 0, 0.25);
+  --df-focus-ring: 2px solid var(--df-accent);
+  --df-transition: 0.2s ease;
+  /* Headings: Space Grotesk | Body: Inter */
+  --df-font-heading: 'Space Grotesk', system-ui, sans-serif;
+  --df-font: 'Inter', Helvetica, system-ui, sans-serif;
+  /* Typography scale */
+  --df-h1: 40px;
+  --df-h2: 28px;
+  --df-h3: 22px;
+  --df-body: 16px;
+  --df-small: 14px;
+  --df-label-size: 13px;
+  --df-line-height: 1.6;
+}

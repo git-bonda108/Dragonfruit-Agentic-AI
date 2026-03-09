@@ -1,0 +1,258 @@
+
+=== Sheet: Current Pipeline (W Feedback) ===
+
+					Reviewers: 
+Leadership: Brendan, Yazan, Emily
+Production: Garrett, Mariana, Felipe, Ishna
+PPM: Mahmoud, Martina
+Creative: Hannah, Matias		
+PROD PHASE	RESPONSIBLE	GENERAL TASK	SPECIFIC ACTIONS	OPTIONAL ACTIONS	SOFTWARE	AUTOMATION OR AI TOOL USED 	NOTES
+Onboarding		ONBOARDING (runs prior to first batch - see Standard Timeline)					
+Onboarding	Onboarding Team (CoS and OC)		Client Signs contract		Nusii		
+Onboarding	Onboarding Team		Share KO Survey 		Google Forms		
+Onboarding	Onboarding Team		Create External Slack with Client		Slack		
+Onboarding	Onboarding Team		Recieve & Review KO Survey		Google Forms		
+Onboarding	Producer		Create New Client Portal/Calendar		Notion		
+Onboarding	Producer		Fill Out New Client Portal 		Notion		
+Onboarding	Producer		Create Template Client Space in ClickUp		ClickUp		
+Onboarding	Producer		Fill Out new ClickUp Space with client information		ClickUp		
+Onboarding	Producer		Create Internal Slack Channel & Invite Team Members (CD PPM Editors Production ECD CoS CEO Hol HoP)		Slack		
+Onboarding	Producer		Ask for availability		Slack		
+Onboarding	Producer		Schedule Intro Call 		Slack, Zoom		
+Onboarding	Producer		Schedule Channel Strategy Kickoff Call 		Slack, Zoom		
+Onboarding	Producer		Gain Access to YT Channel 		YouTube		
+Onboarding	Producer		Confirm Channel Analytics & Sample Footage was recieved		YouTube		
+Onboarding	CS		DA reviews YT Channel for Channel Audit		YouTube		
+Onboarding	CS		DA reviews competitors 		YouTube		
+Onboarding	CS		DA assembles Channel Audit Report 		Google Sheets, Notion, ClickUp		
+Onboarding	CS		DA shares Channel Audit with ECD and CD 		Google Sheets, Notion, ClickUp		
+Onboarding	ECD & CD		ECD and CD Review & Align		Google Sheets, Notion, ClickUp, Slack		
+Onboarding	ECD & CD		ECD and CD Provide Feedback or Contribute Thoughts		Google Sheets, Notion, ClickUp, Slack		
+Onboarding	CS		DA revises		Google Sheets, Notion, ClickUp		
+Onboarding	CS		DA shares Channel Audit with ECD and CD 		Google Sheets, Notion, ClickUp, Slack		
+Onboarding	ECD		ECD Approves		Google Sheets, Notion, ClickUp, Slack		
+Onboarding	ECD		Introduction Call (client provides feedback on Channel Audit)		Zoom		
+Onboarding	CS		DA revises Channel Audit		Google Sheets, Notion, ClickUp		
+Onboarding	CS		DA shares Channel Audit with ECD and CD 		Google Sheets, Notion, ClickUp, Slack		
+Onboarding	ECD		ECD and CD Approve		Google Sheets, Notion, ClickUp, Slack		
+Onboarding	CD		CD creates Channel Content Strategy		Notion, YouTube Studio		
+Onboarding	CD		CD develops visual treatment options by online research and DA's past audit/analysis		Notion, YouTube Studio		
+Onboarding	CD		CD shares Content Strategy and Visual Treatment Options to ECD		Notion, Slack, ClickUp		
+Onboarding	ECD		ECD Approves or shares Feedback		Notion, Slack, ClickUp		
+Onboarding	CD		If Feedback Provided --> 	CD Revises	Notion, YouTube Studio		
+Onboarding	CD			CD shares with ECD	Notion, Slack, ClickUp		
+Onboarding	ECD			ECD Approves	Notion, Slack, ClickUp		
+Onboarding	CD		CD adds Channel Audit Report, Analysis, Value Prop to new Onboarding Document 		Google Sheets, Notion		
+Onboarding	CD		CD & ECD review onboarding dashboard 		Notion, ClickUp		
+Onboarding	ECD		ECD revises final dashboard 		Notion, ClickUp		
+Onboarding	ECD (+ Producer, CD)		Channel Kickoff Call commences		Zoom		
+Onboarding / Pre-Pro Overlap	CD		CD develops and shares Style Brief 		ClickUp, Notion, YouTube, ViewStats, 1of10		
+Onboarding / Pre-Pro Overlap	PPM / Editor		PPM or Editor creates Style Edit		Adobe Premiere, Adobe After Effects		
+Onboarding / Pre-Pro Overlap	PPM / Editor		PPM or Editor Iterates on Style Edit		Adobe Premiere, Adobe After Effects		
+Onboarding / Pre-Pro Overlap	PPM		PPM Reviews 		Frame.io, ClickUp		
+Onboarding / Pre-Pro Overlap	PPM		PPM Shares Feedback or Revises Themself		Frame.io, ClickUp		
+Onboarding / Pre-Pro Overlap	CD		CD Reviews Style Edit 		Adobe Premiere, Adobe After Effects		
+Onboarding / Pre-Pro Overlap	CD		CD Approves or provides feedback		Frame.io, ClickUp		
+Onboarding / Pre-Pro Overlap	PPM / Editor		If Feedback Provided --> 	PPM / Editor reviews feedback	Frame.io, ClickUp		
+Onboarding / Pre-Pro Overlap	PPM / Editor			PPM / Editor Revises	Adobe Premiere, Adobe After Effects		
+Onboarding / Pre-Pro Overlap	CD			CD Reviews and Approves 	Frame.io, ClickUp		
+Onboarding / Pre-Pro Overlap	ECD		ECD Reviews Style Edit 		Frame.io, ClickUp		
+Onboarding / Pre-Pro Overlap	PPM		ECD Approves or Provides Feedback		Frame.io, ClickUp		
+Onboarding / Pre-Pro Overlap	PPM / Editor		If Feedback Provided --> 	PPM / Editor reviews feedback	Frame.io		
+Onboarding / Pre-Pro Overlap	PPM / Editor			PPM / Editor Revises	Adobe Premiere, Adobe After Effects		
+Onboarding / Pre-Pro Overlap	ECD			ECD Approves Style Edit 	Frame.io, ClickUp		
+Onboarding / Pre-Pro Overlap	Producer		Share Style Edit to Client		Slack, Frame.io		
+Onboarding / Pre-Pro Overlap	Client		Client Approves or Provides Feedback 		Slack, Frame.io		
+Onboarding / Pre-Pro Overlap	PPM / Editor		If Feedback Provided --> 	PPM or Editor Revises 	Adobe Premiere, Adobe After Effects		
+Onboarding / Pre-Pro Overlap	ECD			ECD and CD Approve Style Edit 	Frame.io, ClickUp		
+Onboarding / Pre-Pro Overlap	Producer			Share Style Edit to Client	Slack, Frame.io		
+Onboarding / Pre-Pro Overlap	Client			Client Approves	Slack		
+Onboarding / Pre-Pro Overlap	Producer		Producer Updates Clickup		Slack, ClickUp		
+Onboarding / Pre-Pro Overlap	PPM		PPM assembles Editing SOP referencing Style Edit & Brief		Notion		
+Onboarding / Pre-Pro Overlap	Producer		Producer shares Editing SOP to ECD 		Notion		
+Onboarding / Pre-Pro Overlap	ECD		ECD Reviews 		Notion, Slack, ClickUp		
+Onboarding / Pre-Pro Overlap	ECD		ECD approves or provides feedback 		Notion, Slack, ClickUp		
+Onboarding / Pre-Pro Overlap	CD		If Feedback Provided --> 	CD Revises	Notion		
+Onboarding / Pre-Pro Overlap	CD			CD shares with ECD	Notion, Slack, ClickUp		
+Onboarding / Pre-Pro Overlap	ECD			ECD Approves	Notion, Slack, ClickUp		
+Pre-Production 		Producer Programs New Batch of Content			ClickUp, Make	ClickUp - New Parent Tasks for Production Timeline Automation triggers Make - Production Timeline Automation (unsure what this is meant to do)	
+Pre-Production 	Producer		Producer applies template batch to client space in ClickUp 		ClickUp, Make	Make - Creation of Subtasks in Editing Batches (auto names tasks) + Click Up - Creation of Subtasks in Editing Parents (sends webhook when status changes to ready to start and task is Video or Short) 
+	
+Pre-Production 	Producer			Producer customizes it depending on client unique needs	ClickUp, Notion, Slack		
+Pre-Production 	Producer		Producer sets publish dates		ClickUp		
+Pre-Production 	Producer		Producer sets due dates by back tracking on publish dates		ClickUp		
+Pre-Production 	Producer		Producer asks for client availability 		ClickUp, Slack		
+Pre-Production 	Producer		Producer cross references team availability 		ClickUp, Google Calendar, Slack		
+Pre-Production 	Producer		Producer adjusts 		ClickUp		
+Pre-Production 	Producer		Producer assigns tasks		ClickUp, Make	Make - Auto-Link Editor Via Relationship (Links Editor to Editor Database when Edit V1 is assigned)	
+Pre-Production 	Producer		Producer & YPC add creative details as they're made available 		ClickUp, Slack		
+Pre-Production 		Batch is ready to begin 				ClickUp - Task Dependency Update (CU based automation that makes one task "Ready to start" when the dependencies are cleared. 	
+Pre-Production 	CD		CD ideates and creates doc in Notion		ClickUp, Notion, YouTube, ViewStats, 1of10		
+Pre-Production 	CD			Research ViewStats and/or 1of10 for Outliers and Trends. 	Notion, ViewStats, 1of10		
+Pre-Production 	CD			Reviews compariable content on YouTube	YouTube, Notion		
+Pre-Production 	CD		CD confirms ideation is complete 		Notion, ClickUp		
+Pre-Production 	Producer		Producer passes onto Client		Slack, ClickUp		
+Pre-Production 	Client		Client reviews		Slack, Notion		
+Pre-Production 	Client		Client approves or provides feedback		Slack		
+Pre-Production 	CD		If feedback provided --> 	CD Revises 	Notion		
+Pre-Production 	CD			CD Confirms 	Notion, Slack, ClickUp		
+Pre-Production 	Producer			Producer Passes to Client	Slack, Notion		
+Pre-Production 	Client			Client Reviews	Notion		
+Pre-Production 	Client			Client Approves	Slack		
+Pre-Production 	Client		Client records Voice Notes (Unless Client Longform is a Vlog)		Notta		
+Pre-Production 	Client		Client shares Voice Notes		Dropbox, Slack, Notta		
+Pre-Production 	Client		Producer Updates Clickup		Slack, ClickUp		
+Pre-Production 		Scripting					
+Pre-Production 	Producer		Producer links Voice Notes to ClickUp		ClickUp, Slack, Notta		
+Pre-Production 	CD		 CD quickly reviews Voice Notes		Notta, ChatGPT, Slack, Notion, ClickUp		
+Pre-Production 	Script Writer		Script Writer reviews script using Voice Notes, Ideation Doc 		Notta, ChatGPT, Slack, Notion, ClickUp		
+Pre-Production 	Script Writer		Script Writer drafts script V1 using Voice Notes, Ideation Doc 		Notta, ChatGPT, Slack, Notion, ClickUp		
+Pre-Production 	CD		CD reviews V1 		Slack, Notion, ClickUp		
+Pre-Production 	CD		CD approves or provides feedback 		Slack, Notion, ClickUp		
+Pre-Production 	Script Writer		If feedback is provided -->	Scriptwriter revieves & reviews feedback	Slack, Notion, ClickUp		
+Pre-Production 	Script Writer			Scriptwriter revises script V2	Notta, ChatGPT, Slack, Notion, ClickUp		
+Pre-Production 	Script Writer			Scriptwriter confirms V2 is complete	Slack, ClickUp		
+Pre-Production 	CD			CD reviews V2	Slack, Notion, ClickUp		
+Pre-Production 	CD			CD approves	Slack, ClickUp		
+Pre-Production 	Producer		Producer passes script to client 		Slack, Notion, ClickUp		
+Pre-Production 	Client		Client reviews 		Slack, Notion		
+Pre-Production 	Client		Client approves or provides feedback 		Slack, Notion		
+Pre-Production 	Producer		If feedback is provided -->	Producer shares feedback to scriptwriter 	Slack, ClickUp		
+Pre-Production 				CD might help guide feedback by leaving additional comments in notion	Slack, Notion		
+Pre-Production 	Script Writer			Scriptwriter reviews & reviews feedback	Slack, Notion, ClickUp		
+Pre-Production 	Script Writer			Scriptwriter revises script V3	Notta, ChatGPT, Slack, Notion, ClickUp		
+Pre-Production 	Script Writer			Scriptwriter confirms V3 is complete	Slack, ClickUp		
+Pre-Production 	CD			CD reviews V3	Slack, Notion, ClickUp		
+Pre-Production 	CD			CD approves	Slack, ClickUp		
+Pre-Production 	Producer			Producer passes script to client 	Slack, Notion, ClickUp		
+Pre-Production 	Client			Client approves	Slack, Notion		
+Pre-Production 	Producer		Producer Updates ClickUp 		Slack, Notion, ClickUp		
+Production		Recording					
+Production	Client		Client records script		Notion		
+Production	Client		Client uploads raw footage		Dropbox		
+Production	Client		Client passes link to team 		Slack, Dropbox		
+Post-Production		QC Rough and Roadmap					
+Post-Production	YPC		YPC confirms it's the correct link and footage		Dropbox, Slack		
+Post-Production	YPC		If not correct -->	YPC updates the link / places into correct space	Dropbox		
+Post-Production	YPC		YPC puts link info in task 		ClickUp, Dropbox		
+Post-Production	Editor		Editor downloads footage		Dropbox, Make	Make - Active Video Tracker (x3 - Old Tracking Automations)	
+Post-Production	Editor		Editor uploads footage to Descript		Descript		
+Post-Production	Editor		Editor reviews & cuts down footage to reasonale time		Adobe Premiere		
+Post-Production	Editor		Uploads Rough Cut to Descript (if not already edited in Descript)		Descript		
+Post-Production	Editor		If new -->	Editor reviews Edit SOP	Notion		
+Post-Production	Editor			Editor reviews Style Edit 	Frame.io		
+Post-Production	Editor		Editor assembles Roadmap 		Adobe After Effects		
+Post-Production	Editor		Editor reviews		Adobe After Effects		
+Post-Production	Editor		Editor exports		Adobe After Effects		
+Post-Production	Editor		Editor uploads to ClickUp, tags CD 		Slack, ClickUp, Make, Zapier	Make - Weekly Accumulator (x3 - Various Steps in Editor Database Tracking). Plus Zapier - Missed Due Date Tracker for Subtasks (unsure what this does)	
+Post-Production		Thumbnail V1 					
+Post-Production	Designer		Designer reviews Ideation Doc 		Notion, ClickUp		
+Post-Production	Designer		Designer creates Thumbnails V1 		Adobe Photoshop, ChatGPT		
+Post-Production	Designer		Designer uploads to CU and confirms to team		ClickUp		
+Post-Production	CD		CD reviews		ClickUp		
+Post-Production	CD		CD provides feedback		ClickUp		
+Post-Production		CD Reviews					
+Post-Production	CD		CD reviews Roadmap		ClickUp		
+Post-Production	CD		CD reviews rough cut		Descript		
+Post-Production	CD		CD approves or provides feedback (comments on CU)		ClickUp, Descript		
+Post-Production	Editor		If roadmap feedback -->	If Roadmap needs revising, Editor reviews feedback	ClickUp		
+Post-Production	Editor			Editor updates Roadmap 	Adobe After Effects		
+Post-Production	Editor			Editor shares back Revision 	ClickUp		
+Post-Production	CD			CD or PPM reviews 	ClickUp		
+Post-Production	CD			CD or PPM approves	ClickUp		
+Post-Production	Editor		If rough cut feedback -->	Editor applies feedback in V1 or CD edits themself 	Descript, ClickUp		
+Post-Production		Edit V1					
+Post-Production	Editor		Editor prepares new project		Adobe Premiere		
+Post-Production	Editor		Editor imports Footage 		Adobe Premiere, Dropbox, ClickUp		
+Post-Production	Editor		If same editor as RC -->	Editor collects XML from Descript or ClickUp and links to project	Descript, Adobe Premiere, ClickUp		
+Post-Production	Editor		If new editor --> 	Editor downloads project with footage from Descript	Descript, Adobe Premiere, ClickUp		
+Post-Production	Editor		Editor reviews script		Notion		
+Post-Production	Editor		Editor pulls bytes 		Adobe Premiere, Notion		
+Post-Production	Editor		Editor applies B-Roll		Adobe Premiere, Dropbox		
+Post-Production	Editor		Editor applies music 		Adobe Premiere, Artlist		
+Post-Production	Editor		Editor applies SFX 		Adobe Premiere, Artlist		
+Post-Production	Editor		Editor updates graphics		Adobe After Effects		
+Post-Production	Editor		Editor applies graphics 		Adobe Premiere, Adobe After Effects		
+Post-Production	Editor		Editor applies FX		Adobe Premiere, Adobe After Effects		
+Post-Production	Editor		Editor reviews		Adobe Premiere		
+Post-Production	Editor		Editor provides link via Frame IO		Frame.io, Adobe Premiere		
+Post-Production	Editor		Editor shares team via ClickUp		ClickUp, Slack, Frame.io		
+Post-Production		PPM V1 Reviews					
+Post-Production	PPM		PPM reviews video 		Frame.io, ClickUp		
+Post-Production	PPM		PPM leaves feedback 		Frame.io, ClickUp		
+Post-Production		Thumbnail V2					
+Post-Production	Designer		Desginer reviews feedback		ClickUp		
+Post-Production	Designer		Designer revises		Adobe Photoshop, ChatGPT		
+Post-Production	Designer		Designer uploads to CU and confirms 		ClickUp		
+Post-Production		Edit V2					
+Post-Production	Editor		Editor reviews feedback 		Frame.io		
+Post-Production	Editor		Editor applies feedback 		Adobe Premiere, Frame.io		
+Post-Production	Editor		Editor reviews 		Adobe Premiere, Frame.io		
+Post-Production	Editor		Editor updates link & confirms		Adobe Premiere, Frame.io, ClickUp		
+Post-Production		PPM V2 Review					
+Post-Production	PPM		PPM pulls up video and reviews		Frame.io, ClickUp		
+Post-Production	PPM		PPM leaves feedback via comments on Frame IO		Frame.io		
+Post-Production	PPM		PPM confirms feedback is complete 		ClickUp		
+Post-Production		CD V2 Review					
+Post-Production	CD		CD pulls up video and reviews		Frame.io, ClickUp		
+Post-Production	CD		CD leaves feedback via comments on Frame IO		Frame.io		
+Post-Production	CD		CD reviews thumbnails		ClickUp		
+Post-Production	CD		CD provides feedback 		ClickUp		
+Post-Production	CD		CD confirms feedback is complete		ClickUp		
+Post-Production		Edit V3					
+Post-Production	Editor		Editor reviews feedback 		Adobe Premiere, Frame.io		
+Post-Production	Editor		Editor applies feedback 		Adobe Premiere		
+Post-Production	Editor		Editor reviews 		Adobe Premiere, Frame.io		
+Post-Production	Editor		Editor updates link & confirms		Adobe Premiere, Frame.io, ClickUp		
+Post-Production		PPM V3 Review					
+Post-Production	PPM		PPM pulls up video and reviews		Frame.io, ClickUp		
+Post-Production	PPM		PPM approves		ClickUp		
+Post-Production		CD V3 Review					
+Post-Production	CD		CD pulls up video and reviews		Frame.io, ClickUp		
+Post-Production	CD		CD pulls up thumbnails and revies		ClickUp		
+Post-Production	CD		CD approves		ClickUp		
+Post-Production		Client Review					
+Post-Production	YPC		YPC shares link to Client		Slack, ClickUp		
+Post-Production	Client		Client reviews		Frame.io, Slack		
+Post-Production	Client		Client leaves feedback 		Frame.io, Slack		
+Post-Production	YPC		If feedback not in Frame.io -->	YPC shares feedback to editor	Slack		
+Post-Production		Edit V4					
+Post-Production	Editor		Editor reviews feedback 		Adobe Premiere, Frame.io		
+Post-Production	Editor		Editor applies feedback 		Adobe Premiere		
+Post-Production	Editor		Editor reviews 		Adobe Premiere		
+Post-Production	Editor		Editor updates link & confirms		Adobe Premiere, Frame.io, ClickUp		
+Post-Production		CD or PPM V4 Review					
+Post-Production	PPM		PPM or CD pulls up video and reviews		Frame.io, ClickUp		
+Post-Production	PPM		PPM or CD approves		ClickUp		
+Post-Production		Client Review					
+Post-Production	YPC		YPC shares link to Client		Slack, ClickUp, Frame.io		
+Post-Production	Client		Client reviews		Frame.io		
+Post-Production	Client		Client leaves feedback or approves		Frame.io, Slack		
+Post-Production	YPC		If feedback not in Frame.io -->	YPC shares feedback to editor & continues to revise	Slack, ClickUp		
+Post-Production		Publish Prep 					
+Post-Production	Client		Client provides final approval		Frame.io, Slack		
+Post-Production	CD		CD highlights final Title and Thumbs		Notion		
+Post-Production	YPC		YPC downloads export from Frame.io		Frame.io, ClickUp		
+Post-Production	YPC		YPC uploads export to Dropbox		Dropbox		
+Post-Production	YPC		YPC adds link to production tracker		ClickUp, Dropbox		
+Post-Production	YPC		YPC pulls link for packaging doc 		ClickUp, Notion		
+Post-Production	YPC		YPC notifies publisher (grace) with tracker and packaging info		Slack, ClickUp		
+Post-Production	Publisher		Publisher downloads video		Dropbox, Slack, ClickUp		
+Post-Production	Publisher		Publisher uploads to youtube		YouTube		
+Post-Production	Publisher		Publisher adds metadata		YouTube, Notion, ClickUp		
+Post-Production	Publisher		Publisher schedules		YouTube, ClickUp		
+Post-Production	Publisher		Publisher confirms 		Slack, ClickUp		
+Post-Production		Publish Split Test					
+Post-Production	CD		CD reviews A/B test results		YouTube, ClickUp		
+Post-Production	CD		CD updates thumbnail and then iterates with different copy		YouTube, Notion		
+Post-Production	CD		CD notes analytics 		YouTube, Notion		
+Post-Production	CD		Later, CD reviews A/B test results again		YouTube, ClickUp		
+Post-Production	CD		CD updates with successful copy		YouTube, Notion		
+Post-Production	CD		CD notes analytics 		YouTube, Notion		
+Post-Production		Monthly Report					
+Post-Production	CD		CD locates and reviews Brief Template for date accuracy, LF vs. SF		Notion, YouTube, ClickUp		
+Post-Production	CD		CD reviews specific YT Video Performance		YouTube, 1of10, ViewStats, Notion		
+Post-Production	CD		CD adds questions for DA to muse on in Notion, confirms when done		Notion, ClickUp		
+Post-Production	CS		Data Analyst reviews CD's brief		Notion, ClickUp		
+Post-Production	CS		Data Analyst executes report		Notion, ClickUp, YouTube, ViewStats, 1of10		
+Post-Production	CS		Data Analyst shares report 		ClickUp, Slack, Notion		

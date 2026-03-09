@@ -1,0 +1,137 @@
+
+=== Sheet: SaaS Bills ===
+
+Active or Inactive	TOOLS	Subscription Plan	Who Uses It	Prepro/Post Prod/Corpoate Overhead	Subscription Cycle	Amount	Monthly Amount 	Email (Access to billing)	Billing Day	# of Users who have access via Lastpass	Members/Users	Total and % of total	12816.209999999992
+ACTIVE	ClickUp	Business Plus Plan	Creative Director, Data Analyst, Editor, Executive Creative Director, Post-Production Manager, Producer, Production Coordinator, Publisher, Scriptwriter, Thumbnail Designer	Onboarding, Post-Production, Pre-Production	Annually	25367.88	2113.9900000000002	vhinia@dragonfruitmedia.co	2026-09-24 00:00:00	7	104	0.1649465793709686	
+ACTIVE	Notion	Plus Plan	Creative Director, Data Analyst, Editor, Executive Creative Director, Post-Production Manager, Producer, Production Coordinator, Publisher, Scriptwriter, Thumbnail Designer	Onboarding, Post-Production, Pre-Production, Production	Monthly	1176	1176	accounting@dragonfruitmedia.co	28	1	98	0.09175879608714282	
+ACTIVE	Frame	Pro plan	Creative Director, Editor, Executive Creative Director, Post-Production Manager, Producer, Production Coordinator	Onboarding, Post-Production	Monthly	1095	1095	admin@dragonfruitmedia.co	11	7	10	0.08543867492807941	
+ACTIVE	Squarespace - Google Workspace	Business Starter plan	All Roles (email, calendar, docs)	Pre-Production, Post-Production, Operations	Monthly	932.4	932.4	admin@dragonfruitmedia.co	25	7	111	0.07275161689766324	
+ACTIVE	Slack (internal & production)	Pro plan	All Roles	Pre-Production, Post-Production, Onboarding	Monthly	866.25	866.25	vhinia@dragonfruitmedia.co	28	1	99	0.06759018461776145	
+ACTIVE	Storyblocks	Business License	Editor	Post-Production	Annually	10080	840	admin@dragonfruitmedia.co	2026-09-24 00:00:00	7	2	0.06554199720510202	
+ACTIVE	Dropbox	Dropbox Advanced	Editor, Production Coordinator, Publisher	Post-Production, Pre-Production, Production	Annually	9216	768	admin@dragonfruitmedia.co	2026-03-30 00:00:00	9	1	0.05992411173037899	
+ACTIVE	Missive	Productive Plan	Producer, Creative Director, Leadership	Pre-Production, Post-Production	Monthly	686	686	adrian@dragonfruitmedia.co	1	1	14	0.053525964384166645	
+ACTIVE	Make	Teams plan	Operations, Leadership	Automation / Operations	Monthly	559.58	559.58	admin@dragonfruitmedia.co	19	5	1	0.0436618938047988	
+ACTIVE	Zoom	Workplace Business & 1TB Cloud Storage	Producer, Creative Director, Executive Creative Director, Leadership	Pre-Production, Onboarding	Monthly	460	460	clients@dragonfruitmedia.co	2	16	26	0.035892046088508246	
+ACTIVE	Lastpass	LastPass Business Max	All Roles (password management)	Operations	Annually	5226	435.5	vhinia@lifeandlim.com	2026-12-21 00:00:00	5	134	0.033980404503359436	
+ACTIVE	Grain	Business Plan	Producer, Creative Director, Leadership	Pre-Production, Onboarding	Monthly	312	312	admin@dragonfruitmedia.co	13	7	10	0.024344170390466463	
+INACTIVE	Google One Storage (Flow)		Production Coordinator	Post-Production	Monthly	249	249	login.dfmb@gmail	9			0.019428520600083814	
+ACTIVE	Grain	Starter Plan	Producer, Creative Director, Leadership	Pre-Production, Onboarding	Monthly	228	228	hello@dragonfruitmedia.co	15	10	10	0.017789970669956263	
+ACTIVE	ChatGPT	ChatGPT Pro Subscription	Creative Director, Scriptwriter, Thumbnail Designer	Pre-Production, Post-Production	Monthly	200	200	adrian@dragonfruitmedia.co	21	7	1	0.015605237429786195	
+ACTIVE	Loom	Loom Business	Producer, Creative Director, Post-Production Manager, Leadership	Pre-Production, Post-Production	Monthly	144	144	admin@dragonfruitmedia.co	13	7	10	0.01123577094944606	
+ACTIVE	Zapier	Pro plan	Operations, Leadership	Automation / Operations	Monthly	133.5	133.5	hello@dragonfruitmedia.co	21	4	1	0.010416495984382285	
+ACTIVE	Nusii	Business Plan	Leadership, Onboarding Team	Onboarding	Monthly	129	129	admin@dragonfruitmedia.co	9	7	1	0.010065378142212096	
+ACTIVE	QBO	QuickBooks Plus	Leadership, Finance	Operations	Monthly	115	115	admin@dragonfruitmedia.co	1	3	1	0.008973011522127062	
+INACTIVE	Skool		Leadership	Operations	Monthly	99	99	adrian@dragonfruitmedia.co	7			0.007724592527744167	
+INACTIVE	GoHighLevel		Leadership	Operations	Monthly	97	97	adrian@dragonfruitmedia.co	15			0.007568540153446305	
+ACTIVE	Youtube TV/Google Services		Leadership	Operations	Monthly	82.99	82.99	adrian@dragonfruitmedia.co	27	1	1	0.0064753932714897815	
+ACTIVE	1OF10.COM	1of10 Pro	Creative Director, Data Analyst	Pre-Production, Post-Production	Monthly	79	79	adrian@dragonfruitmedia.co	15	14	1	0.006164068784765547	
+ACTIVE	Descript	Creator Plan	Creative Director, Editor	Post-Production	Monthly	70	70	clients@dragonfruitmedia.co	12	7	1	0.005461833100425168	
+INACTIVE	Metricool		Data Analyst, Creative Director	Post-Production	Monthly	59	59	clients@dragonfruitmedia.co	20			0.004603545041786928	
+ACTIVE	Typecast 		Editor, Creative Director	Post-Production	Monthly	50	50	admin@dragonfruitmedia.co	1			0.003901309357446549	
+ACTIVE	ViewStats	Pro plan	Creative Director, Data Analyst	Pre-Production, Post-Production	Monthly	49.99	49.99	clients@dragonfruitmedia.co	27	14	1	0.0039005290955750594	
+ACTIVE	Artlist	Max Pro	Editor	Post-Production	Annually	479.88	39.99	admin@dragonfruitmedia.co	2026-02-10 00:00:00	14	1	0.00312026722408575	
+ACTIVE	Epidemic	Pro Plan	Editor	Post-Production	Monthly	39.99	39.99	clients@dragonfruitmedia.co	29	65	1	0.00312026722408575	
+ACTIVE	The Org	Basic	Leadership	Operations	Monthly	29	29	adrian@dragonfruitmedia.co	5	4	1	0.0022627594273189984	
+ACTIVE	Webflow	CMS Site Plan	Leadership	Operations	Monthly	29	29	adrian@dragonfruitmedia.co	13	7	1	0.0022627594273189984	
+ACTIVE	Vimeo 	Pro plan	Editor, Production Coordinator, Producer	Post-Production	Annually	300	25	admin@dragonfruitmedia.co	2026-10-29 00:00:00	10	1	0.0019506546787232744	
+ACTIVE	WeTransfer	Ultimate plan	Editor, Producer, Production Coordinator	Post-Production	Monthly	25	25	hello@dragonfruitmedia.co	28	7	1	0.0019506546787232744	
+ACTIVE	Elvenlabs	Creator Plan	Editor, Creative Director	Post-Production	Monthly	22	22	admin@dragonfruitmedia.co	4	14	1	0.0017165761172764813	
+ACTIVE	Freepik	Premium Plan	Thumbnail Designer, Editor, Creative Director	Post-Production	Monthly	20	20	clients@dragonfruitmedia.co	6	12	1	0.0015605237429786195	
+ACTIVE	Freepik	Premium Plan	Thumbnail Designer, Editor, Creative Director	Post-Production	Monthly	20	20	hello@dragonfruitmedia.co	6	18	1	0.0015605237429786195	
+ACTIVE	Freepik	Premium Plan	Thumbnail Designer, Editor, Creative Director	Post-Production	Monthly	20	20	ops.b@dragonfruitmedia.co	20	18	1	0.0015605237429786195	
+ACTIVE	Freepik	Premium Plan	Thumbnail Designer, Editor, Creative Director	Post-Production	Monthly	20	20	ops.e@dragonfruitmedia.co	21	7	1	0.0015605237429786195	
+ACTIVE	Freepik	Premium Plan	Thumbnail Designer, Editor, Creative Director	Post-Production	Monthly	20	20	admin@dragonfruitmedia.co	21	21	1	0.0015605237429786195	
+ACTIVE	Hellosign	Essentials Plan	Leadership, Onboarding Team	Onboarding	Monthly	20	20	admin@dragonfruitmedia.co	13	7	1	0.0015605237429786195	
+ACTIVE	Misterhorse	Misterhorse 1 seat plan	Editor	Post-Production	Monthly	19.9	19.9	analytics@dragonfruitmedia.co	3	3	1	0.0015527211242637262	
+ACTIVE	Misterhorse	Misterhorse 1 seat plan	Editor	Post-Production	Monthly	19.9	19.9	operations@dragonfruitmedia.co	3	4	2	0.0015527211242637262	
+ACTIVE	Misterhorse	Misterhorse 1 seat plan	Editor	Post-Production	Monthly	19.9	19.9	clients@dragonfruitmedia.co	7	3	2	0.0015527211242637262	
+ACTIVE	Misterhorse	Misterhorse 1 seat plan	Editor	Post-Production	Monthly	19.9	19.9	ops.a@dragonfruitmedia.co	7	3	1	0.0015527211242637262	
+ACTIVE	Misterhorse	Misterhorse 1 seat plan	Editor	Post-Production	Monthly	19.9	19.9	ops.b@dragonfruitmedia.co	3	3	1	0.0015527211242637262	
+ACTIVE	Misterhorse	Misterhorse 1 seat plan	Editor	Post-Production	Monthly	19.9	19.9	ops.d@dragonfruitmedia.co	28	3	2	0.0015527211242637262	
+ACTIVE	Misterhorse	Misterhorse 1 seat plan	Editor	Post-Production	Monthly	19.9	19.9	ops.e@dragonfruitmedia.co	28	3	2	0.0015527211242637262	
+ACTIVE	Misterhorse	Misterhorse 1 seat plan	Editor	Post-Production	Monthly	19.9	19.9	ops.j@dragonfruitmedia.co	7	5	2	0.0015527211242637262	
+ACTIVE	Misterhorse	Misterhorse 1 seat plan	Editor	Post-Production	Monthly	19.9	19.9	ops.l@dragonfruitmedia.co	7	3	1	0.0015527211242637262	
+ACTIVE	Misterhorse	Misterhorse 1 seat plan	Editor	Post-Production	Monthly	19.9	19.9	ops.o@dragonfruitmedia.co	21	3	1	0.0015527211242637262	
+ACTIVE	Misterhorse	Misterhorse 1 seat plan	Editor	Post-Production	Monthly	19.9	19.9	ops.p@dragonfruitmedia.co	21	4	2	0.0015527211242637262	
+ACTIVE	Misterhorse	Misterhorse 1 seat plan	Editor	Post-Production	Monthly	19.9	19.9	ops.q@dragonfruitmedia.co	21	4	2	0.0015527211242637262	
+ACTIVE	Misterhorse	Misterhorse 1 seat plan	Editor	Post-Production	Monthly	19.9	19.9	ops.r@dragonfruitmedia.co	21	3	1	0.0015527211242637262	
+ACTIVE	Misterhorse	Misterhorse 1 seat plan	Editor	Post-Production	Monthly	19.9	19.9	clients.a@dragonfruitmedia.co	9	3	2	0.0015527211242637262	
+ACTIVE	Webflow	Core plan	Leadership	Operations	Annually	228	19	adrian@dragonfruitmedia.co	2026-01-13 00:00:00	7	1	0.0014824975558296884	
+ACTIVE	Zoom	Workplace Pro	Producer, Creative Director, Executive Creative Director, Leadership	Pre-Production, Onboarding	Monthly	16.99	16.99	adrian@dragonfruitmedia.co	26	7	1	0.001325664919660337	
+ACTIVE	Misterhorse	Misterhorse 1 seat plan	Editor	Post-Production	Annually	198	16.5	admin@dragonfruitmedia.co	2026-02-06 00:00:00	5	2	0.001287432087957361	
+ACTIVE	Misterhorse	Misterhorse 1 seat plan	Editor	Post-Production	Annually	198	16.5	hello@dragonfruitmedia.co	2026-03-20 00:00:00	4	2	0.001287432087957361	
+INACTIVE	Oxylabs	ISP Proxies	Data Analyst	Post-Production	Monthly	16	16	clients@dragonfruitmedia.co	10	22	1	0.0012484189943828955	
+ACTIVE	Grain	Starter Plan	Producer, Creative Director, Leadership	Pre-Production, Onboarding	Annually	180	15	adrian@dragonfruitmedia.co	7	1	6	0.0011703928072339647	
+ACTIVE	Canva	Monthly Subscription	Thumbnail Designer, Creative Director, Leadership	Pre-Production, Post-Production	Monthly	15	15	adrian@dragonfruitmedia.co	9		1	0.0011703928072339647	
+ACTIVE	Setapp	Mac plan	Editor	Post-Production	Monthly	9.99	9.99	clients.lemon@dragonfruitmedia.co	18	14	1	0.0007794816096178205	
+ACTIVE	Setapp	Mac plan	Editor	Post-Production	Monthly	9.99	9.99	clients.banana@dragonfruitmedia.co	18	14	1	0.0007794816096178205	
+ACTIVE	Setapp	Mac plan	Editor	Post-Production	Monthly	9.99	9.99	clients.watermelon@dragonfruitmedia.co	18	14	1	0.0007794816096178205	
+ACTIVE	Setapp	Mac plan	Editor	Post-Production	Monthly	9.99	9.99	clients.mango@dragonfruitmedia.co	18	14	1	0.0007794816096178205	
+ACTIVE	Setapp	Mac plan	Editor	Post-Production	Monthly	9.99	9.99	clients.strawberry@dragonfruitmedia.co	18	14	1	0.0007794816096178205	
+ACTIVE	Setapp	Mac plan	Editor	Post-Production	Monthly	9.99	9.99	clients.peach@dragonfruitmedia.co	18	14	1	0.0007794816096178205	
+ACTIVE	Squarespace - Domain	Domain Subscription	Leadership	Operations	Annually	30	2.5	admin@dragonfruitmedia.co	2026-03-14 00:00:00	7	0	0.00019506546787232743	
+ACTIVE	TidyCal	Individual Plan	Producer, Creative Director, Leadership	Pre-Production, Onboarding	One-Time Purchase	29	0	hello@dragonfruitmedia.co	-	2	1	0	
+ACTIVE	TidyCal	Individual Plan	Producer, Creative Director, Leadership	Pre-Production, Onboarding	One-Time Purchase	29	0	operations@dragonfruitmedia.co	-	14	1	0	
+ACTIVE	TidyCal	Individual Plan	Producer, Creative Director, Leadership	Pre-Production, Onboarding	One-Time Purchase	29	0	brendan@dragonfruitmedia.co	-	7	1	0	
+ACTIVE	TidyCal	Individual Plan	Producer, Creative Director, Leadership	Pre-Production, Onboarding	One-Time Purchase	29	0	matiasrijo@dragonfruitmedia.co	-	2	1	0	
+ACTIVE	TidyCal	Individual Plan	Producer, Creative Director, Leadership	Pre-Production, Onboarding	One-Time Purchase	29	0	admin@dragonfruitmedia.co	-	3	1	0	
+ACTIVE	TidyCal	Individual Plan	Producer, Creative Director, Leadership	Pre-Production, Onboarding	One-Time Purchase	29	0	clients@dragonfruitmedia.co	-	4	1	0	
+ACTIVE	TidyCal	Individual Plan	Producer, Creative Director, Leadership	Pre-Production, Onboarding	One-Time Purchase	29	0	ops.e@dragonfruitmedia.co	-	3	1	0	
+	TidyCal		Leadership, Producer	Operations									
+ACTIVE	Cardly 		Editor	Post-Production	Custom Purchase			clients@dragonfruitmedia.co		3		0	
+ACTIVE	Misterhorse	Misterhorse 1 seat plan	Editor	Post-Production				ops.f@dragonfruitmedia.co		4	2	0	
+ACTIVE	Misterhorse	Misterhorse 1 seat plan	Editor	Post-Production				ops.h@dragonfruitmedia.co		4	2	0	
+ACTIVE	Misterhorse	Misterhorse 1 seat plan	Editor	Post-Production				ops.i@dragonfruitmedia.co		3	1	0	
+ACTIVE	Misterhorse	Misterhorse 1 seat plan	Editor	Post-Production				ops.k@dragonfruitmedia.co		4	2	0	
+ACTIVE	Misterhorse	Misterhorse 1 seat plan	Producer, Creative Director, Leadership	Pre-Production, Onboarding				ops.m@dragonfruitmedia.co		4	2	0	
+ACTIVE	TidyCal	Agency Plan (Agency Plan trial)	Creative Director, Producer, Scriptwriter	Pre-Production				adrian@dragonfruitmedia.co		7	1	0	
+ACTIVE	RAILWAY		Editor, Thumbnail Designer, Creative Director, Post-Production Manager	Post-Production									
+TBD	Notta												
+TBD	Adobe Creative Suite? (Or a la carte, PS, Pr, AE)												
+	Claude												
+PROJECTED	Lucid LInk												
+
+=== Sheet:  Vhinia Scratch Pad ===
+
+	ClickUp							
+	Notion							
+	Frame							
+	Squarespace - Google Workspace							
+	Slack (internal & production)							
+	Storyblocks							
+	Dropbox			Skool		Skool	7	84
+	Missive					GoHighLevel	15	180
+	Make			GoHighLevel		The Org	5	60
+	Zoom					Webflow	13	156
+	Lastpass					Oxylabs	10	120
+	Grain							
+	Google One Storage (Flow)			1OF10.COM				
+	ChatGPT							
+	Loom			Metricool				
+	Zapier							
+	Nusii			Typecast				
+	QBO							
+	Skool			ViewStats				
+	GoHighLevel							
+	Youtube TV/Google Services			Artlist				
+	1OF10.COM							
+	Descript			Epidemic				
+	Metricool							
+	Typecast 			The Org				
+	ViewStats							
+	Artlist			Webflow				
+	Epidemic							
+	The Org			Vimeo				
+	Webflow							
+	Vimeo 			WeTransfer				
+	WeTransfer							
+	Elvenlabs			Elvenlabs				
+	Freepik							
+	Hellosign			Oxylabs				
+	Misterhorse							
+	Oxylabs			Canva				
+	Canva							
+	Setapp			Setapp				
+	Squarespace - Domain							
+	TidyCal							
+	Cardly 							

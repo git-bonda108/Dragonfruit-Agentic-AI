@@ -1,0 +1,195 @@
+
+=== Sheet: Producers ===
+
+Producers — Current vs. Dream Time Allocation - Based on 50 hour work week							
+People: 6  |  Capacity (5d × 8h): 240h  |  Logged: 244.5h  |  Feb 4–10, 2026							
+CURRENT TIME ALLOCATION - 4 Clients
+(As Captured by Time Audit)	% of Capacity		DREAM TIME ALLOCATION - 7 Clients
+(Future AI + Automation Enabled Pipeline)	△	Target % of Capacity	# of hours per task assuming 7 client load and 50 hour work week	Notes / Rationale
+ClickUp Administration (Total)	0.38		ClickUp Administration (Total)	▼	0.18		Down from 38% → 18%. Claude-to-ClickUp MCP automates batch setup, statuses, routing
+  └ Task/Batch Creation	0.097		  └ Automated (Task Creation, Maint., Statuses)		0.05		AI handles routine tasks with human-in-the-loop review
+  └ General Maintenance	0.078		  └ Strategic (Space Design, Complex Setups)		0.08		Human judgment for workflow architecture
+  └ Other ClickUp	0.1		  └ Dates/Assignees/Other		0.05		Partially automated
+  └ Dates	0.039		Meetings – Internal	▼	0.15000000000000002		Down from 20% → 13%. Async standups + AI-generated agendas
+  └ Space/View Creation	0.026		  └ Daily Standup	▼	0.04		Down from 7%. Pre-populated async updates
+  └ Assignees	0.023		  └ Agenda Prep	▼	0.01		Down from 5%. AI auto-generates from ClickUp data
+  └ Status Updates	0.009		  └ Department/DFM-Wide		0.04		Maintained
+  └ Comments	0.008		  └ 1:1s	▲	0.05		Up from 2.7%. More strategic coaching
+Meetings – Internal (Total)	0.198		  └ Other		0.01		Maintained
+  └ Daily Standup	0.071		Slack Communication (Total)	▼	0.1		Down from 17% → 10%. Slack-to-ClickUp routing automated
+  └ Agenda Prep	0.051		  └ Internal	▼	0.05		Down from 9%. Automated notifications
+  └ Department/DFM-Wide	0.041		  └ Client/External	▼	0.05		Down from 8%. Templates for routine, human for strategic
+  └ 1:1s	0.027		Client Relationship & Strategy	▲	0.1		NEW: Freed time → proactive client strategy, content planning, growth
+  └ Other Internal	0.008		Production Strategy & QC	▲	0.12		Up from 3.4%. More time for content quality oversight
+Slack Communication (Total)	0.167		MAKE / Automation Building	▼	0.05		We have continued investment in automation infrastructure but it is spreadheaded by Production Strategy + Operations Specialist
+  └ Internal	0.088		Meetings – Client (External)	▲	0.05		Up from 2.1%. More client-facing strategic time
+  └ Client/External	0.079		Innovation Lab	▲	0.1		NEW: Workflow design, experiment running (Innovation Lab)
+MAKE – Automation Building	0.07		Breaks		0.07		Maintained
+Breaks	0.068		Notion / Documentation	▲	0.05		Up from 2.5%
+Video Review / Creative QC	0.034		Email / Publishing / Other	▲	0.03		Up from 1.7%. Includes misc admin
+Meetings – Client (External)	0.021						
+Notion Work	0.025						
+Time Audit Management	0.038						
+Email / YouTube Publishing / Other	0.017						
+TOTAL	1.0180000000000002		TOTAL		1.0000000000000002		
+KEY NOTES							
+• Innovation Experiment: "Deploy AI-assisted automation layer (Claude to ClickUp MCP) for routine task creation, batch setup, status updates, Slack-to-ClickUp routing"							
+• KPI: "Zero increase in missed deadlines or client escalations vs. control pod"							
+• Current coordination overhead: 74.5% (ClickUp 38% + Slack 17% + Meetings 20%). Dream: 41%, freeing ~34% for strategic work							
+• Freed time → Client Strategy (+14%), Creative QC (+9%), Process Improvement (+5%), Automation (+3%)							
+• Risk mitigation: "Human-in-the-loop review; automated actions flagged in dedicated Slack channel"							
+
+=== Sheet: Production Coordinators ===
+
+Production Coordinators — Current vs. Dream Time Allocation  - Based on 50 hour work week							
+People: 8  |  Capacity (5d × 8h): 320h  |  Logged: 313.2h  |  Feb 4–10, 2026							
+CURRENT TIME ALLOCATION - 4 Clients
+(As Captured by Time Audit)	% of Capacity		DREAM TIME ALLOCATION - 7 Clients
+(Future AI + Automation Enabled Pipeline)	△	Target % of Capacity	# of hours per task assuming 7 client load and 50 hour work week	Notes / Rationale
+ClickUp Administration (Total)	0.397		ClickUp Administration (Total)	▼	0.2		Down from 40% → 20%. Claude Click Up MCP automates task creation, statuses, comment routing
+  └ General Maintenance	0.064		  └ Automated (Batch Creation, Statuses, Comments)		0.1		AI handles with human-in-the-loop review
+  └ Task/Batch Creation	0.063		  └ Strategic (Client Facing Space Mgmt)		0.05		Human judgment for complex setups
+  └ Status Updates	0.045		  └ Dates/Assignees/Other		0.05		Partially automated
+  └ Comments	0.043		Meetings – Internal	▼	0.15000000000000002		Down from 19% → 15%. Async standups + AI agenda generation
+  └ Other ClickUp	0.094		  └ Daily Standup	▼	0.04		Down from 6.6%. Async updates
+  └ Dates	0.032		  └ Department/DFM-Wide		0.04		Maintained
+  └ Space/View Creation	0.021		  └ 1:1s	▲	0.05		Strategic coaching with Producers
+  └ Publishing Prep	0.019		  └ Agenda Prep	▼	0.01		Down from 3.3%. AI auto-generates from ClickUp
+  └ Assignees	0.016		  └ Other	▲	0.01		Up from 0.5%
+Meetings – Internal (Total)	0.188		Slack Communication	▼	0.1		Down from 11%, more templatized comms
+  └ Daily Standup	0.066		  └ Internal	▼	0.06		Maintained
+  └ Department/DFM-Wide	0.045		  └ Client/External	▼	0.04		Down from 5.2%. Template-based client updates
+  └ 1:1s	0.04		Proactive Asset Management & Infastructure	▲	0.17		Up from ~8%. Freed time 
+  └ Agenda Prep	0.033		  └ Dropbox Upload / Organization	▲	0.04		Up from 3.5%. Better tooling
+  └ Other Internal	0.005		  └ YouTube Publishing		0.03		Maintained
+Slack Communication (Total)	0.113		  └ Footage Management	▲	0.05		Up from 0.9%. Streamlined ingest
+  └ Internal	0.062		  └ Notion Documentation	▲	0.05		SOP updates
+  └ Client/External	0.052		Innovation Lab	▲	0.1		NEW: Workflow optimization, training
+Breaks	0.112		Video Review / QC	▲	0.05		Up from 1.6%. More quality oversight
+Notion Work	0.038		Meetings – Client (External)	▲	0.03		Up from 0.2%. More client-facing coordination
+Dropbox Upload / Organization	0.035		Breaks		0.1		Maintained
+YouTube Publishing	0.032		Free time (additional client allocation?)	▲	0.1		Bandwidth to take on additional clients in pod
+Video Review / QC	0.016						
+Footage Downloading	0.009						
+Meetings – Client (External)	0.002						
+Time Audit / Email / Other	0.036						
+TOTAL	0.9780000000000001		TOTAL		1.0000000000000002		
+KEY NOTES							
+• Innovation Experiment: Same Claude-to-ClickUp MCP automation applies (Producers + PCs share coordination load)							
+• Time Audit: PCs are the heaviest admin role. ClickUp = 40%, Slack = 11%, Meetings = 19% → 70% coordination overhead							
+• Dream coordination overhead: 40% (ClickUp 20% + Slack 7% + Meetings 13%), freeing ~30% for value-added work							
+• Freed time → Client Coordination (+16%), Asset Mgmt (+7%), QC (+3.4%), Process Improvement (+7%)							
+• PCs represent the highest automation ROI across all roles — most repetitive, rule-based work							
+• Risk mitigation: "Human-in-the-loop review; automated actions flagged in dedicated Slack channel"							
+
+=== Sheet: Post-Production Managers ===
+
+Post-Production Managers — Current vs. Dream Time Allocation  - Based on 50 hour work week								
+People: 5  |  Capacity (5d × 8h): 200h  |  Logged: 242.5h  |  Feb 4–10, 2026								
+CURRENT TIME ALLOCATION - 4 Clients
+(As Captured by Time Audit)	% of Capacity		DREAM TIME ALLOCATION - 7 Clients
+(Future AI + Automation Enabled Pipeline)	△	Target % of Capacity	# of hours per task assuming 7 client load and 50 hour work week	Notes / Rationale	
+Video Review / QC	0.279		Video Reviews / QC	▲	0.35		Up from 28% → 35%. Higher quality V2s; catch more before CD	
+Style Guides	0.188		Editor Management — Intentional (Total)	▲	0.29999999999999993		Up from ~11% → 30%. Quality coaching, not reactive troubleshooting	
+Meetings – Internal (Total)	0.252		  └ 1:1s (Quality-Focused)		0.12		Shift from reactive → intentional coaching	
+  └ 1:1s	0.125		  └ Editor Briefings	▲	0.06		Increased structured project briefings (from 2.9%)	
+  └ Daily Standup	0.064		  └ Performance Tracking (AI-Assisted)	▲	0.05		NEW: AI/Editor Database flags underperformance + pattern reports	
+  └ PPM Meeting	0.044		  └ Pod Meetings	▲	0.04		Structured editor development (from 1.6%)	
+  └ Editor Pod Meeting	0.016		  └ Peer Support / Mentoring	▲	0.03		Formalized support (from 0.9%)	
+  └ Other	0.004		Hiring	▲	0.05		NEED: additional hiring resource for editorial	
+Slack Communication (Internal)	0.141		Onboarding	▲	0.1		Up from 2% → 15%. Freed admin time redirected here	
+Breaks	0.098		Style Guides	▼	0.05		NEED: post production art director specifically focused on style guides	
+Editor Troubleshooting / Editing Support	0.076		Breaks		0.09		Maintained	
+ClickUp Administration	0.05		Slack Communication	▼	0.03		Down from 14% → 3%. Automated QA notifications eliminate manual pings	
+Editor Briefings	0.029		ClickUp Administration	▼	0.01		Down from 5% → 1%. Automated via AI-assisted QA routing	
+Bespoke Client Work	0.025		SOPs / Documentation		0.02		Maintained	
+Hiring	0.02							
+SOPs / Documentation	0.018							
+Time Audit / Other	0.029							
+Peer Support	0.009							
+TOTAL	1.2139999999999997		TOTAL		1			
+KEY NOTES								
+• Dream split: Reviews 35% / Editor Management 30% / Hiring+Onboarding 15% (PPM dream scenario)								
+• "If PPMs spend less time in reactive 1:1s, they can spend more time on intentional editor management"								
+• "If we use AI/Editor Database to flag underperformance and generate pattern reports, less time manually tracking"								
+• "If we automate more admin/overhead tasks, PPMs can use that time toward hiring/onboarding"								
+
+=== Sheet: Creative Directors ===
+
+Creative Directors — Current vs. Dream Time Allocation  - Based on 50 hour work week							
+People: 6  |  Capacity (5d × 8h): 240h  |  Logged: 230.8h  |  Feb 4–10, 2026							
+CURRENT TIME ALLOCATION - 4 Clients
+(As Captured by Time Audit)	% of Capacity		DREAM TIME ALLOCATION - 7 Clients
+(Future AI + Automation Enabled Pipeline)	△	Target % of Capacity	# of hours per task assuming 7 client load and 50 hour work week	Notes / Rationale
+Preproduction — Ideation	0.107		Preproduction — Ideation (incl. Packaging)	▲	0.24		Significantly up from 11%.  → Client specific Claude projects built as thought partners + more time for YT blue sky browsing. Thumbnail AI tools integrated into workflow for clearer briefs for designers.
+Preproduction — Research	0.093		Preproduction — Research (Videos, Trends)	▲	0.14		Significantly up from 9%. AI tool accelerates research with scraping YT data into client customized dashboards per client
+Preproduction — Scripting	0.048		Preproduction — Scripting (incl. Roadmap)	▲	0.12		Significantly up from 5%. 30% faster time-to-first-draft with AI
+Preproduction — Thumbnail Briefs	0.041		  [Preproduction Subtotal]	▲	0.5		Up from ~29% → 50%. Innovation Experiment target: 40-60%
+  [Preproduction Subtotal]	0.289		Roughcut (Picture Lock) Review	▲	0.05		NEW structured checkpoint
+Video Review (Total)	0.12		V1 Review	▼	0		PPM delivers on-brand V1. CD spreadsheet: target = 0%
+  └ V1 Review	0.027		V2 Review	▲	0.05		Up from 2.6%. CDs focus review energy on V2+
+  └ V2 Review	0.026		V3 Review		0.02		Maintained
+  └ V3 Review	0.019		V4 Review		0.01		Maintained
+  └ V4 Review	0.007		Meetings – Internal (Creative Only)	▼	0.08		Down from 13% → 8%. Creative mtgs only; non-creative → 0%
+  └ V5+ / Other Review	0.041		  └ Content Strategy		0.03		Maintained
+Post-Publication Monitoring	0.059		  └ CD/CD		0.03		Maintained
+Onboarding (Content Strategy + Channel Audit)	0.085		  └ Creative 1:1s	▲	0.02		Up from 1.1%
+Pulling Shorts	0.039		Meetings – Non-Creative Internal	▼	0		Eliminated. CD spreadsheet: "0"
+Creative QC	0.026		Meetings – Client (External)	▲	0.03		Up from 1.8%. More client-facing creative leadership
+Meetings – Internal (Total)	0.127		Slack Communication	▼	0.05		Down from 8%. Structured async workflows
+  └ Daily Standup	0.044		ClickUp Administration	▼	0		Eliminated. CD spreadsheet: "all tasks handled daily by production"
+  └ Content Strategy	0.03		Post-Publication Monitoring	▼	0		Down from 6% Ideal target is "Reassigned For Another Role" TBD HIRE HERE
+  └ CD/CD	0.027		Training / Education	▲	0.08		NEW: Continuous creative development & training
+  └ 1:1s	0.011		Monthly Reports		0.02		Maintained
+  └ Other Internal	0.015		Breaks		0.08		Maintained
+Meetings – Client (External)	0.018		Pulling Shorts	▼	0.03		Down from 3.9%. AI-assisted clip identification
+Slack Communication (Total)	0.079		Onboarding		0		Since onboarding is a one time deliveralbe, marked as 0% for the sake of reoccuring monthly time allocations
+  └ Internal	0.054						
+  └ Client/External	0.025						
+ClickUp Administration	0.017						
+Breaks	0.08						
+Time Audit / SOPs / Other	0.023						
+TOTAL	0.962		TOTAL		1		
+KEY NOTES							
+• CD spreadsheet: "I only want CDs working on best creative for a video and nothing else; everything else is bureaucracy"							
+• Preproduction target: 40-60% (vs ~29% current). Modeled at 50%. Source: Innovation Experiment + CD spreadsheet							
+• CD spreadsheet explicit zeros: V1 Review, Non-creative Meetings, ClickUp, Post-Pub Monitoring							
+• CD Tool Kit: Notebook LM, Eddie AI for roughcut, Claude projects per client							
+• Innovation Experiment KPI: CDs report at least 30% faster time-to-first-draft using AI toolkit							
+• Innovation Experiment KPI: 80%+ of ideation and script first drafts leverage AI assistance							
+
+=== Sheet: Editors ===
+
+Editors — Current vs. Dream Time Allocation  - Based on 50 hour work week							
+People: 54  |  Capacity (5d × 8h): 2160h  |  Logged: 2119.8h  |  Feb 4–10, 2026							
+CURRENT TIME ALLOCATION - 4 Clients
+(As Captured by Time Audit)	% of Capacity		DREAM TIME ALLOCATION - 7 Clients
+(Future AI + Automation Enabled Pipeline)	△	Target % of Capacity	# of hours per task assuming 7 client load and 50 hour work week	Notes / Rationale
+Core Editing (Total)	0.659		Core Editing (Total)	▲	0.7900000000000001		Up from 66% → 80%. Higher V1 quality + fewer revisions
+  └ V1 Editing	0.283		  └ V1 Editing	▲	0.45		Up from 28% → 45%. Freed overhead + eliminated idle time → more V1 capacity
+  └ Revisions	0.13		  └ Revisions	▼	0.08		Down from 13% → 8%. Goal: ≤V3 + higher SF V1 approval
+  └ Animating	0.093		  └ Animating	▲	0.1		Slight increase — more creative time
+  └ Exporting	0.036		  └ Exporting	▼	0.02		Reduced via automated export workflows
+  └ Asset Collection	0.036		  └ Asset Collection		0.035		Roughly maintained
+  └ Rough Cut	0.028		  └ Rough Cut	▲	0.04		More time for quality rough cuts
+  └ Audio Mixing	0.019		  └ Audio Mixing	▲	0.03		Slight increase for quality
+  └ Troubleshooting	0.019		  └ Troubleshooting	▼	0.01		Reduced via standardized pipelines
+  └ Self QC/Review	0.013		  └ Self QC/Review	▲	0.025		Increase — catch issues before PPM review
+Breaks	0.108		Breaks		0.1		Maintained
+Idle / Waiting (Assignment, Footage, Feedback)	0.065		Idle / Waiting	▼	0.02		Down from 6.5% → 2%. AI assignment routing + even workload distribution
+Slack Communication (Internal)	0.031		Slack Communication	▼	0.02		Reduced via automated notifications + structured feedback routing
+Footage Downloading (Descript/Dropbox)	0.027		Footage Downloading	▼	0.01		Automated file ingest-to-Descript workflow
+Meetings – Internal	0.026		Meetings – Internal		0.025		Roughly maintained
+  └ Editor Pod Meeting	0.014		  └ Editor Pod Meeting		0.014		Maintained
+  └ 1:1s	0.012		  └ 1:1s		0.011		Maintained
+ClickUp Administration	0.025		ClickUp Administration	▼	0.01		Reduced via automated status/assignment workflows
+Roadmaps	0.01		Peer Support	▲	0.025		Maintained
+Email	0.007						
+Peer Support	0.006						
+Time Audit / Other	0.017						
+TOTAL	0.9810000000000002		TOTAL		1.0000000000000002		
+KEY NOTES							
+• Dream: 80% core editing (from 66%) — "spend closer to 80% of time on core editing" (Editor dream scenario)							
+• Revisions target: ~10% of editing time (≈8% of capacity) — down from ~20% of editing time (Editor dream scenario)							
+• Idle time target: 2% — from 6.5%. AI-enabled workflows assign editors workload in advance + distribute evenly							
+• Automated Descript ingest frees editors from technical processing (Editor dream scenario)							

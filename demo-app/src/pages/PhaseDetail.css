@@ -1,0 +1,185 @@
+.phase-detail {
+  animation: fadeIn 0.3s ease;
+}
+
+.phase-detail-breadcrumb {
+  font-family: var(--df-font);
+  font-size: var(--df-small);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--df-text);
+  margin-bottom: 1rem;
+  text-transform: none;
+}
+
+.phase-detail-desc {
+  font-family: var(--df-font);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--df-text);
+  margin: 0 0 2rem 0;
+  max-width: 560px;
+  text-transform: none;
+}
+
+.phase-detail-breadcrumb a {
+  color: var(--df-accent);
+}
+
+.phase-detail-title {
+  font-family: var(--df-font-heading);
+  font-size: var(--df-h1);
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+  color: #FFFFFF;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  line-height: var(--df-line-height);
+}
+
+
+.phase-detail-roles h2 {
+  font-family: var(--df-font-heading);
+  font-size: var(--df-h2);
+  font-weight: 600;
+  color: var(--df-label);
+  margin: 0 0 1rem 0;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  line-height: var(--df-line-height);
+}
+
+.role-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.role-card {
+  font-family: var(--df-font);
+  background: var(--df-surface);
+  border: 1px solid var(--df-border);
+  border-radius: 10px;
+  padding: 1.5rem;
+  color: var(--df-label);
+  box-shadow: var(--df-shadow);
+  transition: box-shadow var(--df-transition), border-color var(--df-transition), transform var(--df-transition);
+  text-transform: none;
+}
+
+.role-card:hover {
+  box-shadow: var(--df-shadow-card);
+  border-color: var(--df-border);
+}
+
+.role-card-title {
+  font-family: var(--df-font-heading);
+  font-size: var(--df-h3);
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+  color: var(--df-label);
+  letter-spacing: 0.02em;
+  text-transform: none;
+  line-height: var(--df-line-height);
+}
+
+.role-card-section {
+  margin-bottom: 1rem;
+}
+
+.role-card-section:last-of-type {
+  margin-bottom: 0;
+}
+
+.role-card-label {
+  font-family: var(--df-font);
+  font-size: var(--df-label-size);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: var(--df-text);
+  margin-bottom: 0.25rem;
+  text-transform: none;
+}
+
+.role-card-value {
+  font-family: var(--df-font);
+  font-size: var(--df-small);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--df-label);
+  line-height: var(--df-line-height);
+  text-transform: none;
+}
+
+.role-card-dream {
+  font-family: var(--df-font);
+  font-size: var(--df-small);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--df-accent);
+  line-height: var(--df-line-height);
+}
+
+.opportunity-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.opportunity-list li {
+  margin: 0;
+}
+
+.opportunity-link {
+  font-family: var(--df-font);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0.75rem;
+  background: var(--df-panel);
+  border-radius: 6px;
+  font-size: var(--df-label-size);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--df-label);
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: border-color 0.2s, background 0.2s;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+.opportunity-link:hover {
+  background: #e8e8e8;
+  border-color: var(--df-accent);
+  color: var(--df-label);
+  text-decoration: none;
+}
+
+.opportunity-link:focus-visible {
+  outline: var(--df-focus-ring);
+  outline-offset: 2px;
+}
+
+.priority-badge {
+  font-family: var(--df-font);
+  font-size: var(--df-label-size);
+  font-weight: 700;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  letter-spacing: 0.03em;
+}
+
+.priority-badge.high {
+  background: var(--df-accent);
+  color: #FFFFFF;
+}
+
+.priority-badge.medium {
+  background: var(--df-panel);
+  color: var(--df-label);
+}
