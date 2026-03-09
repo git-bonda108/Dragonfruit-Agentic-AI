@@ -4,15 +4,8 @@ import { ErrorBoundary } from './ErrorBoundary';
 import App from './App';
 import './index.css';
 
-const rootEl = document.getElementById('root');
-if (!rootEl) {
-  document.body.innerHTML = '<p style="padding:2rem">No #root element.</p>';
-  throw new Error('No #root element');
-}
-
 function showError(msg: string): void {
-  const el = document.getElementById('root');
-  if (!el) return;
+  const el = document.getElementById('root')!;
   el.innerHTML =
     '<div style="padding:2rem;font-family:system-ui;max-width:560px;">' +
     '<h2 style="color:#c94b62;">App failed to start</h2>' +
@@ -24,7 +17,7 @@ function showError(msg: string): void {
 }
 
 try {
-  createRoot(rootEl as HTMLElement).render(
+  createRoot(document.getElementById('root')!).render(
     <StrictMode>
       <ErrorBoundary>
         <App />
