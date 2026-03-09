@@ -10,7 +10,7 @@ if (!rootEl) {
   throw new Error('No #root element');
 }
 
-function showError(msg: string) {
+function showError(msg: string): void {
   const el = document.getElementById('root');
   if (!el) return;
   el.innerHTML =
@@ -24,7 +24,7 @@ function showError(msg: string) {
 }
 
 try {
-  createRoot(rootEl).render(
+  createRoot(rootEl as HTMLElement).render(
     <StrictMode>
       <ErrorBoundary>
         <App />
