@@ -11,7 +11,9 @@ if (!rootEl) {
 }
 
 function showError(msg: string) {
-  rootEl.innerHTML =
+  const el = document.getElementById('root');
+  if (!el) return;
+  el.innerHTML =
     '<div style="padding:2rem;font-family:system-ui;max-width:560px;">' +
     '<h2 style="color:#c94b62;">App failed to start</h2>' +
     '<pre style="background:#f1f5f9;padding:1rem;overflow:auto;font-size:0.875rem;white-space:pre-wrap;">' +

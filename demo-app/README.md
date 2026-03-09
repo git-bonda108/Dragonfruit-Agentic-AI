@@ -29,8 +29,18 @@ npm run dev
 - **Batch 4:** Opportunity detail (run demo, GIF iframe, input/output, integration, dream allocation).
 - **Batch 5:** Trajectory page + polish.
 
+## Deploy to Railway
+
+**Railway** is a good fit for this app:
+
+- **Frontend:** Build the Vite app (`npm run build`), then serve the `demo-app/dist` folder (e.g. with `npx serve -s dist` or Railway’s static site support).
+- **Backend (optional):** Add a second Railway service for the Python FastAPI backend in `demo-app/backend` (use `pip install -r requirements.txt` and run `uvicorn main:app`). Set env vars (e.g. `CLICKUP_API_KEY`, `OPENAI_API_KEY`) in the Railway dashboard.
+- Connects to your GitHub repo for auto-deploy on push; free tier is usually enough for a demo.
+
+See [Railway Docs](https://docs.railway.app/) for project setup and environment variables.
+
 ## Stack
 
 - Vite + React 18 + TypeScript
 - React Router 6
-- CSS variables (Dragonfruit palette), Plus Jakarta Sans
+- CSS variables (Dragonfruit palette), Space Grotesk + Inter
