@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dragonfruit — Agentic Pipeline Demo</title>
     <style>
-      body { margin: 0; background: #000000; font-family: 'Inter', Helvetica, system-ui, sans-serif; font-size: 16px; line-height: 1.6; color: #8A8A8A; }
+      body { margin: 0; background: #000; font-family: 'Inter', system-ui, sans-serif; font-size: 14px; line-height: 1.45; color: #A1A1AA; }
       #root { min-height: 100vh; }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,11 +14,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <script>
-      if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
-        window.location.replace('http://localhost:' + (window.location.port || '3000'));
-      }
-    </script>
     <div id="root">
       <div style="padding:2rem;font-size:1.25rem;color:#FFFFFF;">
         <strong>Dragonfruit</strong> — Loading…
@@ -52,7 +47,7 @@
         if (window.__ERROR_SHOWN__) return;
         window.__ERROR_SHOWN__ = true;
         var r = document.getElementById('root');
-        if (r) r.innerHTML = '<div style="padding:2rem;font-family:system-ui;"><h2 style="color:#c94b62;">Script failed to load</h2><p>Check that the dev server is running (npm run dev) and the URL is <strong>http://localhost:3000</strong>.</p><p><a href="http://localhost:3000" style="color:#E85D75;">Reload</a></p></div>';
+        if (r) r.innerHTML = '<div style="padding:2rem;font-family:system-ui;"><h2 style="color:#c94b62;">Script failed to load</h2><p>Check that the dev server is running (npm run dev) or refresh the page.</p><p><a href="/" style="color:#E85D75;">Reload</a></p></div>';
       };
       setTimeout(function() {
         if (window.__ERROR_SHOWN__) return;
@@ -62,7 +57,7 @@
           r.innerHTML = '<div style="padding:2rem;font-family:system-ui,sans-serif;max-width:32rem;">' +
             '<h2 style="color:#c94b62;">App did not load</h2>' +
             '<p>Press <strong>F12</strong> → Console and copy any red error, then hard refresh: <strong>Cmd+Shift+R</strong>.</p>' +
-            '<p><a href="http://localhost:3000" style="color:#E85D75;">Reload</a></p></div>';
+            '<p><a href="/" style="color:#E85D75;">Reload</a></p></div>';
         }
       }, 4000);
     </script>

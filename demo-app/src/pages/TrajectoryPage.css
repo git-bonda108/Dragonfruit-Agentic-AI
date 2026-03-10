@@ -21,13 +21,13 @@
 }
 
 .trajectory-title {
-  font-family: var(--df-font-heading);
-  font-size: var(--df-h1);
-  font-weight: 700;
-  color: #FFFFFF;
+  font-family: var(--font-heading);
+  font-size: var(--text-2xl);
+  font-weight: 600;
+  color: #F4F4F5;
   margin: 0 0 0.5rem 0;
-  letter-spacing: 0.02em;
-  line-height: var(--df-line-height);
+  letter-spacing: -0.02em;
+  line-height: 1.2;
 }
 
 .trajectory-subtitle {

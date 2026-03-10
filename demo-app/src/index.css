@@ -4,31 +4,47 @@
   box-sizing: border-box;
 }
 
-/* Typography: Headings = Space Grotesk, Body = Inter | Scale: H1 40px, H2 28px, H3 22px, Body 16px, Small 14px, Labels 13px, line-height 1.6 */
 body {
   margin: 0;
-  font-family: var(--df-font);
-  font-size: var(--df-body);
-  background: var(--df-bg);
-  color: var(--df-text);
-  line-height: var(--df-line-height);
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  line-height: var(--line-normal);
+  color: #A1A1AA;
+  background: #000;
   -webkit-font-smoothing: antialiased;
   text-transform: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--df-font-heading);
+  font-family: var(--font-heading);
   text-transform: none;
-  line-height: var(--df-line-height);
 }
 
-h1 { font-size: var(--df-h1); }
-h2 { font-size: var(--df-h2); }
-h3 { font-size: var(--df-h3); }
-h4 { font-size: var(--df-body); }
-h5, h6 { font-size: var(--df-small); }
+h1 {
+  font-size: var(--text-2xl);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #F4F4F5;
+}
 
-/* Force normal case for all content — no caps */
+h2 {
+  font-size: var(--text-xl);
+  font-weight: 600;
+  color: #E4E4E7;
+}
+
+h3 {
+  font-size: var(--text-lg);
+  font-weight: 600;
+  color: #D4D4D8;
+}
+
+p {
+  font-size: var(--text-base);
+  color: #A1A1AA;
+}
+
 body,
 #root,
 #root * {
@@ -54,4 +70,57 @@ a:focus-visible,
 [tabindex="0"]:focus-visible {
   outline: var(--df-focus-ring);
   outline-offset: 2px;
+}
+
+/* Card system */
+.card {
+  background: #111111;
+  border: 1px solid #1F1F1F;
+  border-radius: 10px;
+  padding: 18px;
+  transition: all 0.2s ease;
+}
+
+.card:hover {
+  border-color: #2F2F2F;
+  transform: translateY(-2px);
+}
+
+/* Section spacing */
+.section {
+  margin-top: 48px;
+}
+
+.section-title {
+  margin-bottom: 12px;
+}
+
+.section-description {
+  margin-bottom: 18px;
+}
+
+/* Tags */
+.tag {
+  font-size: 11px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  background: #1F1F1F;
+  color: #D4D4D8;
+}
+
+.tag-high {
+  background: #7F1D1D;
+  color: #FCA5A5;
+}
+
+.tag-medium {
+  background: #1F1F1F;
+  color: #D4D4D8;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
 }

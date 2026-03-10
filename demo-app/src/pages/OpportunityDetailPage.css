@@ -1,6 +1,7 @@
 .opportunity-detail-page {
   animation: fadeIn 0.3s ease;
-  max-width: 900px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .opportunity-breadcrumb {
@@ -19,83 +20,83 @@
 }
 
 .opp-header {
-  margin-bottom: 1.5rem;
+  margin-bottom: 18px;
 }
 
 .opp-title {
-  font-family: var(--df-font-heading);
-  font-size: var(--df-h1);
-  font-weight: 700;
-  color: #FFFFFF;
+  font-family: var(--font-heading);
+  font-size: var(--text-2xl);
+  font-weight: 600;
+  color: #F4F4F5;
   margin: 0 0 0.25rem 0;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
   text-transform: none;
-  line-height: var(--df-line-height);
 }
 
 .opp-meta {
-  font-family: var(--df-font);
-  font-size: var(--df-small);
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
   font-weight: 400;
-  letter-spacing: 0.02em;
-  color: var(--df-text);
+  color: #A1A1AA;
   text-transform: none;
 }
 
 .opp-meta .priority-badge {
-  font-size: var(--df-label-size);
-  font-weight: 700;
-  padding: 0.2rem 0.5rem;
-  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 6px;
   margin-left: 0.5rem;
 }
 
 .opp-meta .priority-badge.high {
-  background: var(--df-accent);
-  color: #FFFFFF;
+  background: #7F1D1D;
+  color: #FCA5A5;
 }
 
 .opp-meta .priority-badge.medium {
-  background: var(--df-panel);
-  color: var(--df-label);
+  background: #1F1F1F;
+  color: #D4D4D8;
 }
 
 .opp-section {
-  background: var(--df-surface);
-  border: 1px solid var(--df-border);
+  background: #111111;
+  border: 1px solid #1F1F1F;
   border-radius: 10px;
-  padding: 1.25rem;
-  margin-bottom: 1rem;
-  color: var(--df-label);
-  box-shadow: var(--df-shadow);
-  transition: box-shadow var(--df-transition), border-color var(--df-transition);
+  padding: 18px;
+  margin-top: 24px;
+  margin-bottom: 0;
+  color: #A1A1AA;
+  transition: border-color 0.2s ease;
   text-transform: none;
+}
+
+.opp-section:first-of-type {
+  margin-top: 0;
 }
 
 .opp-section:focus-within {
-  border-color: var(--df-accent);
-  box-shadow: var(--df-shadow-card);
+  border-color: #2F2F2F;
 }
 
 .opp-section-title {
-  font-family: var(--df-font-heading);
-  font-size: var(--df-h2);
-  font-weight: 400;
-  letter-spacing: 0.05em;
-  color: var(--df-text);
-  margin: 0 0 0.75rem 0;
+  font-family: var(--font-heading);
+  font-size: var(--text-xl);
+  font-weight: 600;
+  color: #E4E4E7;
+  margin: 0 0 12px 0;
   text-transform: none;
-  line-height: var(--df-line-height);
 }
 
 .opp-section p,
 .opp-section ul {
-  font-family: var(--df-font);
-  font-size: var(--df-body);
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
   font-weight: 400;
-  letter-spacing: 0.02em;
   margin: 0 0 0.5rem 0;
-  line-height: 1.5;
+  line-height: var(--line-normal);
+  color: #A1A1AA;
   text-transform: none;
 }
 
@@ -122,13 +123,12 @@
 }
 
 .opp-section-desc {
-  font-family: var(--df-font);
-  font-size: var(--df-small);
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
   text-transform: none;
   font-weight: 400;
-  letter-spacing: 0.02em;
-  color: var(--df-text);
-  margin: 0 0 0.75rem 0;
+  color: #A1A1AA;
+  margin: 0 0 12px 0;
 }
 
 .opp-section-desc code {
@@ -384,11 +384,12 @@
 }
 
 .opp-agent-confirm-title {
-  font-family: var(--df-font-heading);
-  font-size: var(--df-h3);
+  font-family: var(--font-heading);
+  font-size: var(--text-lg);
+  font-weight: 600;
   margin: 0 0 0.5rem 0;
+  color: #E4E4E7;
   text-transform: none;
-  line-height: var(--df-line-height);
 }
 
 .opp-agent-confirm-fields {

@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "echo '' && echo '>>> OPEN IN BROWSER: http://localhost:3000 <<<' && echo '' && vite",
-    "start": "serve -s dist -l tcp://0.0.0.0:${PORT:-3000}",
+    "start": "node server.js",
     "run": "vite",
     "kill3000": "lsof -ti :3000 | xargs kill -9 2>/dev/null || true",
     "backend": "cd backend && uvicorn main:app --reload --port 8000",

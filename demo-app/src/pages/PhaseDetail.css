@@ -13,11 +13,11 @@
 }
 
 .phase-detail-desc {
-  font-family: var(--df-font);
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
   font-weight: 400;
-  letter-spacing: 0.02em;
-  color: var(--df-text);
-  margin: 0 0 2rem 0;
+  color: #A1A1AA;
+  margin: 0 0 18px 0;
   max-width: 560px;
   text-transform: none;
 }
@@ -27,97 +27,86 @@
 }
 
 .phase-detail-title {
-  font-family: var(--df-font-heading);
-  font-size: var(--df-h1);
-  font-weight: 700;
+  font-family: var(--font-heading);
+  font-size: var(--text-2xl);
+  font-weight: 600;
   margin: 0 0 0.5rem 0;
-  color: #FFFFFF;
-  letter-spacing: 0.02em;
+  color: #F4F4F5;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
   text-transform: none;
-  line-height: var(--df-line-height);
 }
 
-
 .phase-detail-roles h2 {
-  font-family: var(--df-font-heading);
-  font-size: var(--df-h2);
+  font-family: var(--font-heading);
+  font-size: var(--text-xl);
   font-weight: 600;
-  color: var(--df-label);
-  margin: 0 0 1rem 0;
-  letter-spacing: 0.02em;
+  color: #E4E4E7;
+  margin: 0 0 12px 0;
   text-transform: none;
-  line-height: var(--df-line-height);
 }
 
 .role-cards {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .role-card {
-  font-family: var(--df-font);
-  background: var(--df-surface);
-  border: 1px solid var(--df-border);
-  border-radius: 10px;
-  padding: 1.5rem;
-  color: var(--df-label);
-  box-shadow: var(--df-shadow);
-  transition: box-shadow var(--df-transition), border-color var(--df-transition), transform var(--df-transition);
+  font-family: var(--font-sans);
+  background: #0F0F10;
+  border: 1px solid #202020;
+  border-radius: 12px;
+  padding: 20px;
+  color: #A1A1AA;
+  transition: border-color 0.2s ease, transform 0.2s ease;
   text-transform: none;
 }
 
 .role-card:hover {
-  box-shadow: var(--df-shadow-card);
-  border-color: var(--df-border);
+  border-color: #2F2F2F;
 }
 
 .role-card-title {
-  font-family: var(--df-font-heading);
-  font-size: var(--df-h3);
-  font-weight: 700;
-  margin: 0 0 1rem 0;
-  color: var(--df-label);
-  letter-spacing: 0.02em;
+  font-family: var(--font-heading);
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+  color: #E4E4E7;
   text-transform: none;
-  line-height: var(--df-line-height);
 }
 
 .role-card-section {
-  margin-bottom: 1rem;
+  margin-top: 12px;
 }
 
-.role-card-section:last-of-type {
-  margin-bottom: 0;
+.role-card-section:first-of-type {
+  margin-top: 0;
 }
 
 .role-card-label {
-  font-family: var(--df-font);
-  font-size: var(--df-label-size);
-  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--df-text);
-  margin-bottom: 0.25rem;
-  text-transform: none;
+  color: #6B7280;
+  margin-bottom: 4px;
 }
 
 .role-card-value {
-  font-family: var(--df-font);
-  font-size: var(--df-small);
+  font-family: var(--font-sans);
+  font-size: 14px;
   font-weight: 400;
-  letter-spacing: 0.02em;
-  color: var(--df-label);
-  line-height: var(--df-line-height);
+  color: #A1A1AA;
+  line-height: var(--line-normal);
   text-transform: none;
 }
 
 .role-card-dream {
-  font-family: var(--df-font);
-  font-size: var(--df-small);
+  font-family: var(--font-sans);
+  font-size: 14px;
   font-weight: 400;
-  letter-spacing: 0.02em;
   color: var(--df-accent);
-  line-height: var(--df-line-height);
+  line-height: var(--line-normal);
 }
 
 .opportunity-list {
@@ -134,17 +123,16 @@
 }
 
 .opportunity-link {
-  font-family: var(--df-font);
+  font-family: var(--font-sans);
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.35rem 0.75rem;
-  background: var(--df-panel);
+  padding: 6px 10px;
+  background: #1F1F1F;
   border-radius: 6px;
-  font-size: var(--df-label-size);
+  font-size: 13px;
   font-weight: 400;
-  letter-spacing: 0.02em;
-  color: var(--df-label);
+  color: #D4D4D8;
   text-decoration: none;
   border: 1px solid transparent;
   transition: border-color 0.2s, background 0.2s;
@@ -154,9 +142,9 @@
 }
 
 .opportunity-link:hover {
-  background: #e8e8e8;
+  background: #2F2F2F;
   border-color: var(--df-accent);
-  color: var(--df-label);
+  color: #D4D4D8;
   text-decoration: none;
 }
 
@@ -166,20 +154,20 @@
 }
 
 .priority-badge {
-  font-family: var(--df-font);
-  font-size: var(--df-label-size);
-  font-weight: 700;
-  padding: 0.15rem 0.4rem;
-  border-radius: 4px;
-  letter-spacing: 0.03em;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 6px;
+  background: #1F1F1F;
+  color: #D4D4D8;
 }
 
 .priority-badge.high {
-  background: var(--df-accent);
-  color: #FFFFFF;
+  background: #7F1D1D;
+  color: #FCA5A5;
 }
 
 .priority-badge.medium {
-  background: var(--df-panel);
-  color: var(--df-label);
+  background: #1F1F1F;
+  color: #D4D4D8;
 }

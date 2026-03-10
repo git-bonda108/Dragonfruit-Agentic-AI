@@ -1,26 +1,49 @@
-/* Dragonfruit — Color palette + typography */
+/* Dragonfruit — Professional SaaS scale (Linear / Stripe / Vercel) */
 :root {
+  --font-sans: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+  --font-heading: 'Space Grotesk', Inter, sans-serif;
+
+  /* Typography scale */
+  --text-xs: 12px;
+  --text-sm: 13px;
+  --text-base: 14px;
+  --text-md: 15px;
+  --text-lg: 18px;
+  --text-xl: 22px;
+  --text-2xl: 28px;
+  --text-3xl: 34px;
+
+  --line-tight: 1.25;
+  --line-normal: 1.45;
+  --line-relaxed: 1.6;
+
+  /* Colors — dark theme */
   --df-bg: #000000;
-  --df-surface: #FFFFFF;
-  --df-panel: #F2F2F2;
+  --df-surface: #111111;
+  --df-panel: #1F1F1F;
   --df-accent: #FF3B2E;
   --df-accent-hover: #E53935;
-  --df-text: #8A8A8A;
-  --df-label: #333333;
-  --df-border: #333333;
+  --df-text: #A1A1AA;
+  --df-text-muted: #8A8A8A;
+  --df-label: #6B7280;
+  --df-border: #1F1F1F;
+  --df-border-hover: #2F2F2F;
+  --df-heading: #F4F4F5;
+  --df-heading-2: #E4E4E7;
+  --df-heading-3: #D4D4D8;
   --df-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   --df-shadow-card: 0 4px 14px rgba(0, 0, 0, 0.25);
   --df-focus-ring: 2px solid var(--df-accent);
   --df-transition: 0.2s ease;
-  /* Headings: Space Grotesk | Body: Inter */
-  --df-font-heading: 'Space Grotesk', system-ui, sans-serif;
-  --df-font: 'Inter', Helvetica, system-ui, sans-serif;
-  /* Typography scale */
-  --df-h1: 40px;
-  --df-h2: 28px;
-  --df-h3: 22px;
-  --df-body: 16px;
-  --df-small: 14px;
-  --df-label-size: 13px;
-  --df-line-height: 1.6;
+
+  /* Legacy aliases for existing components */
+  --df-font-heading: var(--font-heading);
+  --df-font: var(--font-sans);
+  --df-h1: var(--text-2xl);
+  --df-h2: var(--text-xl);
+  --df-h3: var(--text-lg);
+  --df-body: var(--text-base);
+  --df-small: var(--text-sm);
+  --df-label-size: var(--text-sm);
+  --df-line-height: var(--line-normal);
 }

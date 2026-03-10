@@ -7,7 +7,7 @@
 
 2. **Build & start (automatic)**
    - **Build:** `npm ci` then `npm run build` (Nixpacks uses `nixpacks.toml`).
-   - **Start:** `npm start` → runs `serve -s dist -l tcp://0.0.0.0:${PORT:-3000}`. The app binds to **0.0.0.0** so Railway’s proxy can reach it. Railway sets **`PORT`**; no need to set it. Locally, port 3000 is used.
+   - **Start:** `npm start` → runs `node server.js`, which serves `dist/` on **0.0.0.0:PORT**. Railway injects **PORT**; the app uses it so the proxy can reach it.
 
 3. **Env vars (optional)**
    - For the backend API (ClickUp, OpenAI), add a separate Railway service for `demo-app/backend` and set `CLICKUP_API_KEY`, `OPENAI_API_KEY` there. The frontend here works without them (mock data).
@@ -29,6 +29,13 @@ If you deployed from **repo root** (no root directory set), Railpack fails becau
 
 ---
 
-**If you see "Application failed to respond"** (logs show "Accepting connections at http://localhost:8080" but the public URL doesn’t load):
+**If you see "Application failed to respond"** (domain loads but shows this error):
 
-- The app must listen on **0.0.0.0**, not only localhost, so Railway’s proxy can reach it. The start script uses `serve -s dist -l tcp://0.0.0.0:${PORT:-3000}` for this. Redeploy after pulling the latest code.
+1. **Port must match**  
+   Railway’s proxy sends traffic to the **target port** in your service. The app listens on **PORT** (injected by Railway, often **8080**). They must be the same.
+   - Go to **Settings → Networking → Public Networking**. Check the **Port** (e.g. "Port 3000").
+   - **Option A:** Set **Variables → PORT = 3000** so the app listens on 3000 and matches "Port 3000".
+   - **Option B:** Change the **target port** in Networking to **8080** so it matches Railway’s default PORT.
+   - Save and **Redeploy**.
+
+2. **Confirm Root Directory** is **`demo-app`** and **Clear build cache** then redeploy so the latest `server.js` and start command are used.

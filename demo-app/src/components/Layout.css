@@ -5,14 +5,15 @@
 }
 
 .layout-header {
-  background: var(--df-surface);
-  border-bottom: 2px solid var(--df-border);
-  padding: 0.875rem 1.5rem;
+  height: 56px;
+  background: #000;
+  border-bottom: 1px solid #1F1F1F;
+  padding: 0 1.5rem;
   display: flex;
   align-items: center;
   gap: 1rem;
   flex-wrap: wrap;
-  box-shadow: var(--df-shadow);
+  font-size: 13px;
 }
 
 .layout-header-left {
@@ -22,12 +23,12 @@
 }
 
 .layout-logo {
-  font-family: var(--df-font-heading);
-  font-weight: 700;
-  font-size: var(--df-h2);
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: var(--text-xl);
   color: var(--df-accent);
   text-decoration: none;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.02em;
   transition: color 0.2s;
 }
 
@@ -42,10 +43,9 @@
 }
 
 .layout-tagline {
-  font-family: var(--df-font);
-  font-size: var(--df-label-size);
+  font-family: var(--font-sans);
+  font-size: 13px;
   font-weight: 400;
-  letter-spacing: 0.02em;
   color: var(--df-text);
   text-transform: none;
 }
@@ -58,21 +58,20 @@
 }
 
 .layout-nav-link {
-  font-family: var(--df-font);
-  font-size: var(--df-small);
+  font-family: var(--font-sans);
+  font-size: 13px;
   font-weight: 400;
-  letter-spacing: 0.02em;
   color: var(--df-text);
   text-decoration: none;
-  padding: 0.4rem 0.75rem;
+  padding: 6px 10px;
   border-radius: 6px;
   transition: background 0.2s, color 0.2s;
   text-transform: none;
 }
 
 .layout-nav-link:hover {
-  color: var(--df-label);
-  background: var(--df-panel);
+  color: #E4E4E7;
+  background: #1F1F1F;
 }
 
 .layout-nav-link.active {
@@ -136,14 +135,8 @@
 
 .layout-main {
   flex: 1;
-  padding: 2rem 1.5rem;
+  padding: 24px;
   max-width: 1200px;
   margin: 0 auto;
   width: 100%;
-}
-
-@media (min-width: 768px) {
-  .layout-main {
-    padding: 2.5rem 2rem;
-  }
 }
