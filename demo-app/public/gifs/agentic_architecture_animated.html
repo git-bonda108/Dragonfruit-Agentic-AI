@@ -21,20 +21,20 @@
       margin: 0;
       padding: 24px;
       font-family: 'Inter', Helvetica, sans-serif;
-      background: linear-gradient(165deg, #FFF9F6 0%, #FAFAFA 50%, #F5F5F8 100%);
-      color: var(--df-text);
+      background: #000;
+      color: #e2e8f0;
       min-height: 100vh;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
     }
-    h1 { font-family: 'Bebas Neue', sans-serif; font-size: 0.9rem; font-weight: 400; letter-spacing: 0.02em; margin: 0 0 4px 0; }
-    .subtitle { font-family: 'Inter', Helvetica, sans-serif; font-size: 0.55rem; color: var(--df-muted); margin-bottom: 20px; max-width: 960px; overflow-wrap: break-word; }
+    h1 { font-family: 'Bebas Neue', sans-serif; font-size: 0.75rem; font-weight: 400; letter-spacing: 0.02em; margin: 0 0 4px 0; }
+    .subtitle { font-family: 'Inter', Helvetica, sans-serif; font-size: 0.4rem; color: #94a3b8; margin-bottom: 20px; max-width: 960px; overflow-wrap: break-word; }
     .diagram-wrap {
-      background: var(--df-surface);
-      border-radius: 20px;
-      box-shadow: 0 8px 32px rgba(0,0,0,0.08), 0 0 0 1px var(--df-border);
+      background: #0a0a0a;
+      border-radius: 16px;
+      border: 1px solid #222;
       padding: 24px;
       max-width: 960px;
       overflow: hidden;
@@ -52,7 +52,7 @@
     }
     .arrow-flow { stroke-dasharray: 8 6; animation: dash 1.4s linear infinite; }
     @keyframes dash { to { stroke-dashoffset: -28; } }
-    .caption { font-size: 0.5rem; color: var(--df-muted); margin-top: 12px; text-align: center; }
+    .caption { font-size: 0.4rem; color: #94a3b8; margin-top: 12px; text-align: center; }
   </style>
 </head>
 <body>
@@ -63,19 +63,19 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 580" width="900" height="580">
       <defs>
         <style>
-          .title { font: 400 6px 'Bebas Neue', sans-serif; fill: #1a1a1a; }
-          .subtitle { font: 500 5px 'Inter', sans-serif; fill: #64748B; }
-          .box { fill: #FFFFFF; stroke: #E2E8F0; stroke-width: 1.5; }
+          .title { font: 400 4px 'Bebas Neue', sans-serif; fill: #e2e8f0; }
+          .subtitle { font: 500 4px 'Inter', sans-serif; fill: #94a3b8; }
+          .box { fill: #111; stroke: #334155; stroke-width: 1.5; }
           .box-accent { fill: #FF3B2E; }
           .box-accent .title, .box-accent .subtitle { fill: #FFFFFF; }
-          .box-agent { fill: #FFFBF7; stroke: #FF3B2E; stroke-width: 2; }
-          .hitl { font: 600 5px 'Inter', sans-serif; fill: #E53935; }
+          .box-agent { fill: #111; stroke: #FF3B2E; stroke-width: 2; }
+          .hitl { font: 600 4px 'Inter', sans-serif; fill: #FCA5A5; }
         </style>
         <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
           <path d="M0,0 L8,4 L0,8 Z" fill="#FF3B2E"/>
         </marker>
       </defs>
-      <rect width="900" height="580" fill="#FAFAFA"/>
+      <rect width="900" height="580" fill="#0a0a0a"/>
 
       <rect x="20" y="58" width="860" height="72" rx="8" class="box"/>
       <text x="450" y="78" text-anchor="middle" class="subtitle">TRIGGERS & ENTRY POINTS</text>
@@ -158,7 +158,7 @@
       <rect x="720" y="420" width="140" height="52" rx="6" class="box-accent"/>
       <text x="790" y="443" text-anchor="middle" class="title" font-size="5">Make / Zapier</text>
 
-      <rect x="20" y="498" width="860" height="72" rx="8" fill="#FFFBF7" stroke="#E2E8F0" stroke-width="1"/>
+      <rect x="20" y="498" width="860" height="72" rx="8" fill="#1c1917" stroke="#334155" stroke-width="1"/>
       <text x="40" y="518" class="title" font-size="5">HITL = Human-in-the-loop</text>
       <text x="40" y="535" class="subtitle" font-size="5">Approval at task create, assignment, client messages, QC escalation.</text>
       <text x="40" y="555" class="subtitle" font-size="5">Dragonfruit Media · March 2026</text>
