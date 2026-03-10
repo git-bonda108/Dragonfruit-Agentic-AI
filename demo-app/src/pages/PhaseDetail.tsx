@@ -13,10 +13,10 @@ export function PhaseDetail() {
 
   if (loading || error || !data) {
     return (
-      <div className="phase-detail">
-        {loading && <p style={{ color: 'var(--df-text)' }}>Loading…</p>}
+      <div className="page-container phase-detail">
+        {loading && <p style={{ color: '#4b5563' }}>Loading…</p>}
         {error && <p style={{ color: 'var(--df-accent)' }}>Error: {error.message}</p>}
-        {!data && !loading && !error && <p style={{ color: 'var(--df-text)' }}>No data.</p>}
+        {!data && !loading && !error && <p style={{ color: '#4b5563' }}>No data.</p>}
       </div>
     );
   }
@@ -24,15 +24,15 @@ export function PhaseDetail() {
   const phase = data.phases.find((p) => p.id === phaseId);
   if (!phase) {
     return (
-      <div className="phase-detail">
-        <p style={{ color: 'var(--df-text)' }}>Phase not found.</p>
+      <div className="page-container phase-detail">
+        <p style={{ color: '#4b5563' }}>Phase not found.</p>
         <Link to="/">Back to pipeline</Link>
       </div>
     );
   }
 
   return (
-    <div className="phase-detail">
+    <div className="page-container phase-detail">
       <nav className="phase-detail-breadcrumb">
         <Link to="/">Pipeline</Link>
         <span aria-hidden> / </span>

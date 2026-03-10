@@ -1,42 +1,39 @@
-/* Dragonfruit — Professional SaaS scale (Linear / Stripe / Vercel) */
+/* Dragonfruit — Linear / Stripe / Vercel / Notion style (white, readable) */
 :root {
-  --font-sans: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
-  --font-heading: 'Space Grotesk', Inter, sans-serif;
+  --font-sans: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --font-heading: 'Space Grotesk', sans-serif;
 
-  /* Typography scale */
+  /* Typography */
   --text-xs: 12px;
   --text-sm: 13px;
   --text-base: 14px;
   --text-md: 15px;
   --text-lg: 18px;
   --text-xl: 22px;
-  --text-2xl: 28px;
-  --text-3xl: 34px;
+  --text-2xl: 32px;
 
-  --line-tight: 1.25;
-  --line-normal: 1.45;
-  --line-relaxed: 1.6;
+  /* Spacing */
+  --space-xs: 6px;
+  --space-sm: 12px;
+  --space-md: 18px;
+  --space-lg: 28px;
+  --space-xl: 40px;
 
-  /* Colors — dark theme */
-  --df-bg: #000000;
-  --df-surface: #111111;
-  --df-panel: #1F1F1F;
+  /* Light theme */
+  --df-bg: #ffffff;
+  --df-surface: #ffffff;
+  --df-panel: #f9fafb;
   --df-accent: #FF3B2E;
   --df-accent-hover: #E53935;
-  --df-text: #A1A1AA;
-  --df-text-muted: #8A8A8A;
-  --df-label: #6B7280;
-  --df-border: #1F1F1F;
-  --df-border-hover: #2F2F2F;
-  --df-heading: #F4F4F5;
-  --df-heading-2: #E4E4E7;
-  --df-heading-3: #D4D4D8;
-  --df-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-  --df-shadow-card: 0 4px 14px rgba(0, 0, 0, 0.25);
+  --df-text: #1f2937;
+  --df-text-muted: #4b5563;
+  --df-label: #6b7280;
+  --df-border: #e5e7eb;
+  --df-border-hover: #d1d5db;
+  --df-shadow: 0 1px 2px rgba(0,0,0,0.04);
   --df-focus-ring: 2px solid var(--df-accent);
   --df-transition: 0.2s ease;
 
-  /* Legacy aliases for existing components */
   --df-font-heading: var(--font-heading);
   --df-font: var(--font-sans);
   --df-h1: var(--text-2xl);
@@ -45,5 +42,5 @@
   --df-body: var(--text-base);
   --df-small: var(--text-sm);
   --df-label-size: var(--text-sm);
-  --df-line-height: var(--line-normal);
+  --df-line-height: 1.6;
 }
